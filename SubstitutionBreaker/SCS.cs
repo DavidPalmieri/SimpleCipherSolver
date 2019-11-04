@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace SubstitutionBreaker
 {
-    public partial class Form1 : Form
+    public partial class SCS : Form
     {
         private Data text = null;
         private NGramData cipherTextData = null;
@@ -17,7 +17,7 @@ namespace SubstitutionBreaker
 
         double[] wieghts = new double[] { .7, .8, .9, 1, .9, .8, .7 };
 
-        public Form1()
+        public SCS()
         {
             InitializeComponent();
         }
@@ -749,12 +749,7 @@ namespace SubstitutionBreaker
             }
         }
         //End Hill
-
-        private void VigenereGuess_Click(object sender, EventArgs e)
-        {
-
-        }
-        
+   
 
     }
 }
