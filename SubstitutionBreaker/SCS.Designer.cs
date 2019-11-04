@@ -36,141 +36,141 @@
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.HillTP = new System.Windows.Forms.TabPage();
             this.HillTC = new System.Windows.Forms.TabControl();
-            this.tabPage20 = new System.Windows.Forms.TabPage();
+            this.HillCG = new System.Windows.Forms.TabPage();
             this.K4 = new System.Windows.Forms.RichTextBox();
-            this.tabPage19 = new System.Windows.Forms.TabPage();
+            this.HillPT = new System.Windows.Forms.TabPage();
             this.P4 = new System.Windows.Forms.RichTextBox();
-            this.tabPage18 = new System.Windows.Forms.TabPage();
+            this.HillCT = new System.Windows.Forms.TabPage();
             this.C4 = new System.Windows.Forms.RichTextBox();
             this.HillGuess = new System.Windows.Forms.Button();
             this.HillUserInputGroup = new System.Windows.Forms.GroupBox();
             this.HillPlainText2 = new System.Windows.Forms.ComboBox();
             this.HillCipherText1 = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.HillCT1Guess = new System.Windows.Forms.Label();
             this.HillCipherText2 = new System.Windows.Forms.ComboBox();
-            this.label29 = new System.Windows.Forms.Label();
+            this.HillPT2Guess = new System.Windows.Forms.Label();
             this.HillPlainText1 = new System.Windows.Forms.ComboBox();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.HillCT2Guess = new System.Windows.Forms.Label();
+            this.HillNLbl = new System.Windows.Forms.Label();
             this.Hill_N = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
+            this.HillPT1Guess = new System.Windows.Forms.Label();
+            this.HillTip = new System.Windows.Forms.Label();
             this.AffineTP = new System.Windows.Forms.TabPage();
             this.AffGuess = new System.Windows.Forms.Button();
             this.AffineTC = new System.Windows.Forms.TabControl();
-            this.tabPage16 = new System.Windows.Forms.TabPage();
+            this.AffCG = new System.Windows.Forms.TabPage();
             this.K3 = new System.Windows.Forms.RichTextBox();
-            this.tabPage15 = new System.Windows.Forms.TabPage();
+            this.AffPT = new System.Windows.Forms.TabPage();
             this.P3 = new System.Windows.Forms.RichTextBox();
-            this.tabPage14 = new System.Windows.Forms.TabPage();
+            this.AffCT = new System.Windows.Forms.TabPage();
             this.C3 = new System.Windows.Forms.RichTextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.AffPlainText2 = new System.Windows.Forms.ComboBox();
             this.AffCipherText1 = new System.Windows.Forms.ComboBox();
-            this.label38 = new System.Windows.Forms.Label();
+            this.AffCT1Guess = new System.Windows.Forms.Label();
             this.AffCipherText2 = new System.Windows.Forms.ComboBox();
-            this.label37 = new System.Windows.Forms.Label();
+            this.AffPT2Guess = new System.Windows.Forms.Label();
             this.AffPlainText1 = new System.Windows.Forms.ComboBox();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
+            this.AffCT2Guess = new System.Windows.Forms.Label();
+            this.AffPT1Guess = new System.Windows.Forms.Label();
+            this.AffTip = new System.Windows.Forms.Label();
             this.SubCipher = new System.Windows.Forms.TabPage();
             this.SubGuess = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.CharMap = new System.Windows.Forms.GroupBox();
+            this.labelA = new System.Windows.Forms.Label();
             this.A = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.labelB = new System.Windows.Forms.Label();
             this.B = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.labelC = new System.Windows.Forms.Label();
             this.C = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.labelD = new System.Windows.Forms.Label();
             this.D = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
+            this.labelE = new System.Windows.Forms.Label();
             this.E = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
+            this.labelF = new System.Windows.Forms.Label();
             this.F = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
+            this.labelG = new System.Windows.Forms.Label();
             this.G = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
+            this.labelH = new System.Windows.Forms.Label();
             this.H = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
+            this.labelI = new System.Windows.Forms.Label();
             this.I = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
+            this.labelJ = new System.Windows.Forms.Label();
             this.J = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
+            this.labelK = new System.Windows.Forms.Label();
             this.K = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
+            this.labelL = new System.Windows.Forms.Label();
             this.L = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
+            this.labelM = new System.Windows.Forms.Label();
             this.M = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
+            this.labelN = new System.Windows.Forms.Label();
             this.N = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
+            this.labelO = new System.Windows.Forms.Label();
             this.O = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
+            this.labelZ = new System.Windows.Forms.Label();
             this.P = new System.Windows.Forms.TextBox();
-            this.label23 = new System.Windows.Forms.Label();
+            this.labeP = new System.Windows.Forms.Label();
             this.Q = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
+            this.labelQ = new System.Windows.Forms.Label();
             this.R = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
+            this.labeR = new System.Windows.Forms.Label();
             this.S = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
+            this.labelS = new System.Windows.Forms.Label();
             this.T = new System.Windows.Forms.TextBox();
-            this.label27 = new System.Windows.Forms.Label();
+            this.labelT = new System.Windows.Forms.Label();
             this.U = new System.Windows.Forms.TextBox();
-            this.label26 = new System.Windows.Forms.Label();
+            this.labelU = new System.Windows.Forms.Label();
             this.V = new System.Windows.Forms.TextBox();
-            this.label25 = new System.Windows.Forms.Label();
+            this.labelV = new System.Windows.Forms.Label();
             this.W = new System.Windows.Forms.TextBox();
-            this.label24 = new System.Windows.Forms.Label();
+            this.labelW = new System.Windows.Forms.Label();
             this.X = new System.Windows.Forms.TextBox();
-            this.label31 = new System.Windows.Forms.Label();
+            this.labelX = new System.Windows.Forms.Label();
             this.Y = new System.Windows.Forms.TextBox();
-            this.label30 = new System.Windows.Forms.Label();
+            this.labelY = new System.Windows.Forms.Label();
             this.Z = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
+            this.SetCharMap = new System.Windows.Forms.Button();
             this.SubTC = new System.Windows.Forms.TabControl();
-            this.tabPage13 = new System.Windows.Forms.TabPage();
+            this.SubCG = new System.Windows.Forms.TabPage();
             this.K2 = new System.Windows.Forms.RichTextBox();
-            this.tabPage12 = new System.Windows.Forms.TabPage();
+            this.SubPT = new System.Windows.Forms.TabPage();
             this.P2 = new System.Windows.Forms.RichTextBox();
-            this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.SubCT = new System.Windows.Forms.TabPage();
             this.C2 = new System.Windows.Forms.RichTextBox();
             this.ShiftTP = new System.Windows.Forms.TabPage();
             this.ShiftGuess = new System.Windows.Forms.Button();
             this.ShiftTC = new System.Windows.Forms.TabControl();
-            this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.ShiftCG = new System.Windows.Forms.TabPage();
             this.K1 = new System.Windows.Forms.RichTextBox();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.ShiftPT = new System.Windows.Forms.TabPage();
             this.P1 = new System.Windows.Forms.RichTextBox();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.ShiftCT = new System.Windows.Forms.TabPage();
             this.C1 = new System.Windows.Forms.RichTextBox();
             this.CipherTP = new System.Windows.Forms.TabControl();
             this.menuStrip1.SuspendLayout();
             this.HillTP.SuspendLayout();
             this.HillTC.SuspendLayout();
-            this.tabPage20.SuspendLayout();
-            this.tabPage19.SuspendLayout();
-            this.tabPage18.SuspendLayout();
+            this.HillCG.SuspendLayout();
+            this.HillPT.SuspendLayout();
+            this.HillCT.SuspendLayout();
             this.HillUserInputGroup.SuspendLayout();
             this.AffineTP.SuspendLayout();
             this.AffineTC.SuspendLayout();
-            this.tabPage16.SuspendLayout();
-            this.tabPage15.SuspendLayout();
-            this.tabPage14.SuspendLayout();
+            this.AffCG.SuspendLayout();
+            this.AffPT.SuspendLayout();
+            this.AffCT.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SubCipher.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.CharMap.SuspendLayout();
             this.SubTC.SuspendLayout();
-            this.tabPage13.SuspendLayout();
-            this.tabPage12.SuspendLayout();
-            this.tabPage11.SuspendLayout();
+            this.SubCG.SuspendLayout();
+            this.SubPT.SuspendLayout();
+            this.SubCT.SuspendLayout();
             this.ShiftTP.SuspendLayout();
             this.ShiftTC.SuspendLayout();
-            this.tabPage10.SuspendLayout();
-            this.tabPage9.SuspendLayout();
-            this.tabPage8.SuspendLayout();
+            this.ShiftCG.SuspendLayout();
+            this.ShiftPT.SuspendLayout();
+            this.ShiftCT.SuspendLayout();
             this.CipherTP.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -198,21 +198,21 @@
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.openToolStripMenuItem.Text = "Open ";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // resetToolStripMenuItem
             // 
             this.resetToolStripMenuItem.Name = "resetToolStripMenuItem";
-            this.resetToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.resetToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.resetToolStripMenuItem.Text = "Reset";
             this.resetToolStripMenuItem.Click += new System.EventHandler(this.resetToolStripMenuItem_Click);
             // 
             // printReportToolStripMenuItem
             // 
             this.printReportToolStripMenuItem.Name = "printReportToolStripMenuItem";
-            this.printReportToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.printReportToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.printReportToolStripMenuItem.Text = "Print Report";
             this.printReportToolStripMenuItem.Click += new System.EventHandler(this.printReportToolStripMenuItem_Click);
             // 
@@ -238,24 +238,24 @@
             // 
             // HillTC
             // 
-            this.HillTC.Controls.Add(this.tabPage18);
-            this.HillTC.Controls.Add(this.tabPage19);
-            this.HillTC.Controls.Add(this.tabPage20);
+            this.HillTC.Controls.Add(this.HillCT);
+            this.HillTC.Controls.Add(this.HillPT);
+            this.HillTC.Controls.Add(this.HillCG);
             this.HillTC.Location = new System.Drawing.Point(6, 6);
             this.HillTC.Name = "HillTC";
             this.HillTC.SelectedIndex = 0;
             this.HillTC.Size = new System.Drawing.Size(850, 450);
             this.HillTC.TabIndex = 6;
             // 
-            // tabPage20
+            // HillCG
             // 
-            this.tabPage20.Controls.Add(this.K4);
-            this.tabPage20.Location = new System.Drawing.Point(4, 22);
-            this.tabPage20.Name = "tabPage20";
-            this.tabPage20.Size = new System.Drawing.Size(842, 424);
-            this.tabPage20.TabIndex = 2;
-            this.tabPage20.Text = "Current Guess";
-            this.tabPage20.UseVisualStyleBackColor = true;
+            this.HillCG.Controls.Add(this.K4);
+            this.HillCG.Location = new System.Drawing.Point(4, 22);
+            this.HillCG.Name = "HillCG";
+            this.HillCG.Size = new System.Drawing.Size(842, 424);
+            this.HillCG.TabIndex = 2;
+            this.HillCG.Text = "Current Guess";
+            this.HillCG.UseVisualStyleBackColor = true;
             // 
             // K4
             // 
@@ -268,16 +268,16 @@
             this.K4.TabIndex = 0;
             this.K4.Text = "";
             // 
-            // tabPage19
+            // HillPT
             // 
-            this.tabPage19.Controls.Add(this.P4);
-            this.tabPage19.Location = new System.Drawing.Point(4, 22);
-            this.tabPage19.Name = "tabPage19";
-            this.tabPage19.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage19.Size = new System.Drawing.Size(842, 424);
-            this.tabPage19.TabIndex = 1;
-            this.tabPage19.Text = "PlainText";
-            this.tabPage19.UseVisualStyleBackColor = true;
+            this.HillPT.Controls.Add(this.P4);
+            this.HillPT.Location = new System.Drawing.Point(4, 22);
+            this.HillPT.Name = "HillPT";
+            this.HillPT.Padding = new System.Windows.Forms.Padding(3);
+            this.HillPT.Size = new System.Drawing.Size(842, 424);
+            this.HillPT.TabIndex = 1;
+            this.HillPT.Text = "PlainText";
+            this.HillPT.UseVisualStyleBackColor = true;
             // 
             // P4
             // 
@@ -288,16 +288,16 @@
             this.P4.TabIndex = 0;
             this.P4.Text = "";
             // 
-            // tabPage18
+            // HillCT
             // 
-            this.tabPage18.Controls.Add(this.C4);
-            this.tabPage18.Location = new System.Drawing.Point(4, 22);
-            this.tabPage18.Name = "tabPage18";
-            this.tabPage18.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage18.Size = new System.Drawing.Size(842, 424);
-            this.tabPage18.TabIndex = 0;
-            this.tabPage18.Text = "Cipher Text";
-            this.tabPage18.UseVisualStyleBackColor = true;
+            this.HillCT.Controls.Add(this.C4);
+            this.HillCT.Location = new System.Drawing.Point(4, 22);
+            this.HillCT.Name = "HillCT";
+            this.HillCT.Padding = new System.Windows.Forms.Padding(3);
+            this.HillCT.Size = new System.Drawing.Size(842, 424);
+            this.HillCT.TabIndex = 0;
+            this.HillCT.Text = "Cipher Text";
+            this.HillCT.UseVisualStyleBackColor = true;
             // 
             // C4
             // 
@@ -320,20 +320,20 @@
             // 
             // HillUserInputGroup
             // 
-            this.HillUserInputGroup.Controls.Add(this.label32);
-            this.HillUserInputGroup.Controls.Add(this.label2);
+            this.HillUserInputGroup.Controls.Add(this.HillTip);
+            this.HillUserInputGroup.Controls.Add(this.HillPT1Guess);
             this.HillUserInputGroup.Controls.Add(this.Hill_N);
-            this.HillUserInputGroup.Controls.Add(this.label1);
-            this.HillUserInputGroup.Controls.Add(this.label28);
+            this.HillUserInputGroup.Controls.Add(this.HillNLbl);
+            this.HillUserInputGroup.Controls.Add(this.HillCT2Guess);
             this.HillUserInputGroup.Controls.Add(this.HillPlainText1);
-            this.HillUserInputGroup.Controls.Add(this.label29);
+            this.HillUserInputGroup.Controls.Add(this.HillPT2Guess);
             this.HillUserInputGroup.Controls.Add(this.HillCipherText2);
-            this.HillUserInputGroup.Controls.Add(this.label3);
+            this.HillUserInputGroup.Controls.Add(this.HillCT1Guess);
             this.HillUserInputGroup.Controls.Add(this.HillCipherText1);
             this.HillUserInputGroup.Controls.Add(this.HillPlainText2);
-            this.HillUserInputGroup.Location = new System.Drawing.Point(865, 28);
+            this.HillUserInputGroup.Location = new System.Drawing.Point(862, 28);
             this.HillUserInputGroup.Name = "HillUserInputGroup";
-            this.HillUserInputGroup.Size = new System.Drawing.Size(200, 424);
+            this.HillUserInputGroup.Size = new System.Drawing.Size(201, 425);
             this.HillUserInputGroup.TabIndex = 19;
             this.HillUserInputGroup.TabStop = false;
             this.HillUserInputGroup.Text = "Make Your Guesses";
@@ -355,14 +355,14 @@
             this.HillCipherText1.TabIndex = 13;
             this.HillCipherText1.SelectedIndexChanged += new System.EventHandler(this.HillCipherText1_SelectedIndexChanged);
             // 
-            // label3
+            // HillCT1Guess
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 55);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 13);
-            this.label3.TabIndex = 16;
-            this.label3.Text = "Cipher Text 1";
+            this.HillCT1Guess.AutoSize = true;
+            this.HillCT1Guess.Location = new System.Drawing.Point(6, 55);
+            this.HillCT1Guess.Name = "HillCT1Guess";
+            this.HillCT1Guess.Size = new System.Drawing.Size(70, 13);
+            this.HillCT1Guess.TabIndex = 16;
+            this.HillCT1Guess.Text = "Cipher Text 1";
             // 
             // HillCipherText2
             // 
@@ -373,14 +373,14 @@
             this.HillCipherText2.TabIndex = 12;
             this.HillCipherText2.SelectedIndexChanged += new System.EventHandler(this.HillCipherText2_SelectedIndexChanged);
             // 
-            // label29
+            // HillPT2Guess
             // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(6, 108);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(63, 13);
-            this.label29.TabIndex = 17;
-            this.label29.Text = "Plain Text 2";
+            this.HillPT2Guess.AutoSize = true;
+            this.HillPT2Guess.Location = new System.Drawing.Point(6, 108);
+            this.HillPT2Guess.Name = "HillPT2Guess";
+            this.HillPT2Guess.Size = new System.Drawing.Size(63, 13);
+            this.HillPT2Guess.TabIndex = 17;
+            this.HillPT2Guess.Text = "Plain Text 2";
             // 
             // HillPlainText1
             // 
@@ -390,23 +390,23 @@
             this.HillPlainText1.Size = new System.Drawing.Size(77, 21);
             this.HillPlainText1.TabIndex = 11;
             // 
-            // label28
+            // HillCT2Guess
             // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(6, 135);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(70, 13);
-            this.label28.TabIndex = 18;
-            this.label28.Text = "Cipher Text 2";
+            this.HillCT2Guess.AutoSize = true;
+            this.HillCT2Guess.Location = new System.Drawing.Point(6, 135);
+            this.HillCT2Guess.Name = "HillCT2Guess";
+            this.HillCT2Guess.Size = new System.Drawing.Size(70, 13);
+            this.HillCT2Guess.TabIndex = 18;
+            this.HillCT2Guess.Text = "Cipher Text 2";
             // 
-            // label1
+            // HillNLbl
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(5, 401);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(21, 13);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "N=";
+            this.HillNLbl.AutoSize = true;
+            this.HillNLbl.Location = new System.Drawing.Point(5, 401);
+            this.HillNLbl.Name = "HillNLbl";
+            this.HillNLbl.Size = new System.Drawing.Size(21, 13);
+            this.HillNLbl.TabIndex = 8;
+            this.HillNLbl.Text = "N=";
             // 
             // Hill_N
             // 
@@ -416,22 +416,22 @@
             this.Hill_N.TabIndex = 9;
             this.Hill_N.Text = "2";
             // 
-            // label2
+            // HillPT1Guess
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 28);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 13);
-            this.label2.TabIndex = 15;
-            this.label2.Text = "Plain Text 1";
+            this.HillPT1Guess.AutoSize = true;
+            this.HillPT1Guess.Location = new System.Drawing.Point(6, 28);
+            this.HillPT1Guess.Name = "HillPT1Guess";
+            this.HillPT1Guess.Size = new System.Drawing.Size(63, 13);
+            this.HillPT1Guess.TabIndex = 15;
+            this.HillPT1Guess.Text = "Plain Text 1";
             // 
-            // label32
+            // HillTip
             // 
-            this.label32.Location = new System.Drawing.Point(6, 175);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(188, 100);
-            this.label32.TabIndex = 19;
-            this.label32.Text = "Please note the input boxes are sorted\r\nfrom most common to least common.\r\nThey c" +
+            this.HillTip.Location = new System.Drawing.Point(6, 175);
+            this.HillTip.Name = "HillTip";
+            this.HillTip.Size = new System.Drawing.Size(188, 100);
+            this.HillTip.TabIndex = 19;
+            this.HillTip.Text = "Please note the input boxes are sorted\r\nfrom most common to least common.\r\nThey c" +
     "ontain the bigram and then it\'s\r\nfrequency. \r\n\r\nProTip: Use the mouse wheel to q" +
     "uickly scroll though picks.";
             // 
@@ -459,24 +459,24 @@
             // 
             // AffineTC
             // 
-            this.AffineTC.Controls.Add(this.tabPage14);
-            this.AffineTC.Controls.Add(this.tabPage15);
-            this.AffineTC.Controls.Add(this.tabPage16);
+            this.AffineTC.Controls.Add(this.AffCT);
+            this.AffineTC.Controls.Add(this.AffPT);
+            this.AffineTC.Controls.Add(this.AffCG);
             this.AffineTC.Location = new System.Drawing.Point(6, 6);
             this.AffineTC.Name = "AffineTC";
             this.AffineTC.SelectedIndex = 0;
             this.AffineTC.Size = new System.Drawing.Size(850, 450);
             this.AffineTC.TabIndex = 6;
             // 
-            // tabPage16
+            // AffCG
             // 
-            this.tabPage16.Controls.Add(this.K3);
-            this.tabPage16.Location = new System.Drawing.Point(4, 22);
-            this.tabPage16.Name = "tabPage16";
-            this.tabPage16.Size = new System.Drawing.Size(842, 424);
-            this.tabPage16.TabIndex = 2;
-            this.tabPage16.Text = "Current Guess";
-            this.tabPage16.UseVisualStyleBackColor = true;
+            this.AffCG.Controls.Add(this.K3);
+            this.AffCG.Location = new System.Drawing.Point(4, 22);
+            this.AffCG.Name = "AffCG";
+            this.AffCG.Size = new System.Drawing.Size(842, 424);
+            this.AffCG.TabIndex = 2;
+            this.AffCG.Text = "Current Guess";
+            this.AffCG.UseVisualStyleBackColor = true;
             // 
             // K3
             // 
@@ -489,16 +489,16 @@
             this.K3.TabIndex = 0;
             this.K3.Text = "";
             // 
-            // tabPage15
+            // AffPT
             // 
-            this.tabPage15.Controls.Add(this.P3);
-            this.tabPage15.Location = new System.Drawing.Point(4, 22);
-            this.tabPage15.Name = "tabPage15";
-            this.tabPage15.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage15.Size = new System.Drawing.Size(842, 424);
-            this.tabPage15.TabIndex = 1;
-            this.tabPage15.Text = "PlainText";
-            this.tabPage15.UseVisualStyleBackColor = true;
+            this.AffPT.Controls.Add(this.P3);
+            this.AffPT.Location = new System.Drawing.Point(4, 22);
+            this.AffPT.Name = "AffPT";
+            this.AffPT.Padding = new System.Windows.Forms.Padding(3);
+            this.AffPT.Size = new System.Drawing.Size(842, 424);
+            this.AffPT.TabIndex = 1;
+            this.AffPT.Text = "PlainText";
+            this.AffPT.UseVisualStyleBackColor = true;
             // 
             // P3
             // 
@@ -509,16 +509,16 @@
             this.P3.TabIndex = 0;
             this.P3.Text = "";
             // 
-            // tabPage14
+            // AffCT
             // 
-            this.tabPage14.Controls.Add(this.C3);
-            this.tabPage14.Location = new System.Drawing.Point(4, 22);
-            this.tabPage14.Name = "tabPage14";
-            this.tabPage14.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage14.Size = new System.Drawing.Size(842, 424);
-            this.tabPage14.TabIndex = 0;
-            this.tabPage14.Text = "Cipher Text";
-            this.tabPage14.UseVisualStyleBackColor = true;
+            this.AffCT.Controls.Add(this.C3);
+            this.AffCT.Location = new System.Drawing.Point(4, 22);
+            this.AffCT.Name = "AffCT";
+            this.AffCT.Padding = new System.Windows.Forms.Padding(3);
+            this.AffCT.Size = new System.Drawing.Size(842, 424);
+            this.AffCT.TabIndex = 0;
+            this.AffCT.Text = "Cipher Text";
+            this.AffCT.UseVisualStyleBackColor = true;
             // 
             // C3
             // 
@@ -531,18 +531,18 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.label33);
-            this.groupBox2.Controls.Add(this.label34);
-            this.groupBox2.Controls.Add(this.label36);
+            this.groupBox2.Controls.Add(this.AffTip);
+            this.groupBox2.Controls.Add(this.AffPT1Guess);
+            this.groupBox2.Controls.Add(this.AffCT2Guess);
             this.groupBox2.Controls.Add(this.AffPlainText1);
-            this.groupBox2.Controls.Add(this.label37);
+            this.groupBox2.Controls.Add(this.AffPT2Guess);
             this.groupBox2.Controls.Add(this.AffCipherText2);
-            this.groupBox2.Controls.Add(this.label38);
+            this.groupBox2.Controls.Add(this.AffCT1Guess);
             this.groupBox2.Controls.Add(this.AffCipherText1);
             this.groupBox2.Controls.Add(this.AffPlainText2);
-            this.groupBox2.Location = new System.Drawing.Point(873, 28);
+            this.groupBox2.Location = new System.Drawing.Point(862, 28);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(200, 424);
+            this.groupBox2.Size = new System.Drawing.Size(201, 425);
             this.groupBox2.TabIndex = 20;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Make Your Guesses";
@@ -564,14 +564,14 @@
             this.AffCipherText1.TabIndex = 13;
             this.AffCipherText1.SelectedIndexChanged += new System.EventHandler(this.AffCipherText1_SelectedIndexChanged);
             // 
-            // label38
+            // AffCT1Guess
             // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(6, 55);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(70, 13);
-            this.label38.TabIndex = 16;
-            this.label38.Text = "Cipher Text 1";
+            this.AffCT1Guess.AutoSize = true;
+            this.AffCT1Guess.Location = new System.Drawing.Point(6, 55);
+            this.AffCT1Guess.Name = "AffCT1Guess";
+            this.AffCT1Guess.Size = new System.Drawing.Size(70, 13);
+            this.AffCT1Guess.TabIndex = 16;
+            this.AffCT1Guess.Text = "Cipher Text 1";
             // 
             // AffCipherText2
             // 
@@ -582,14 +582,14 @@
             this.AffCipherText2.TabIndex = 12;
             this.AffCipherText2.SelectedIndexChanged += new System.EventHandler(this.AffCipherText2_SelectedIndexChanged);
             // 
-            // label37
+            // AffPT2Guess
             // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(6, 108);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(63, 13);
-            this.label37.TabIndex = 17;
-            this.label37.Text = "Plain Text 2";
+            this.AffPT2Guess.AutoSize = true;
+            this.AffPT2Guess.Location = new System.Drawing.Point(6, 108);
+            this.AffPT2Guess.Name = "AffPT2Guess";
+            this.AffPT2Guess.Size = new System.Drawing.Size(63, 13);
+            this.AffPT2Guess.TabIndex = 17;
+            this.AffPT2Guess.Text = "Plain Text 2";
             // 
             // AffPlainText1
             // 
@@ -599,31 +599,31 @@
             this.AffPlainText1.Size = new System.Drawing.Size(77, 21);
             this.AffPlainText1.TabIndex = 11;
             // 
-            // label36
+            // AffCT2Guess
             // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(6, 135);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(70, 13);
-            this.label36.TabIndex = 18;
-            this.label36.Text = "Cipher Text 2";
+            this.AffCT2Guess.AutoSize = true;
+            this.AffCT2Guess.Location = new System.Drawing.Point(6, 135);
+            this.AffCT2Guess.Name = "AffCT2Guess";
+            this.AffCT2Guess.Size = new System.Drawing.Size(70, 13);
+            this.AffCT2Guess.TabIndex = 18;
+            this.AffCT2Guess.Text = "Cipher Text 2";
             // 
-            // label34
+            // AffPT1Guess
             // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(6, 28);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(63, 13);
-            this.label34.TabIndex = 15;
-            this.label34.Text = "Plain Text 1";
+            this.AffPT1Guess.AutoSize = true;
+            this.AffPT1Guess.Location = new System.Drawing.Point(6, 28);
+            this.AffPT1Guess.Name = "AffPT1Guess";
+            this.AffPT1Guess.Size = new System.Drawing.Size(63, 13);
+            this.AffPT1Guess.TabIndex = 15;
+            this.AffPT1Guess.Text = "Plain Text 1";
             // 
-            // label33
+            // AffTip
             // 
-            this.label33.Location = new System.Drawing.Point(6, 175);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(188, 100);
-            this.label33.TabIndex = 19;
-            this.label33.Text = "Please note the input boxes are sorted\r\nfrom most common to least common.\r\nThey c" +
+            this.AffTip.Location = new System.Drawing.Point(6, 175);
+            this.AffTip.Name = "AffTip";
+            this.AffTip.Size = new System.Drawing.Size(189, 100);
+            this.AffTip.TabIndex = 19;
+            this.AffTip.Text = "Please note the input boxes are sorted\r\nfrom most common to least common.\r\nThey c" +
     "ontain the unigram and then it\'s\r\nfrequency. \r\n\r\nProTip: Use the mouse wheel to " +
     "quickly scroll though picks.";
             // 
@@ -631,7 +631,7 @@
             // 
             this.SubCipher.BackColor = System.Drawing.SystemColors.Control;
             this.SubCipher.Controls.Add(this.SubTC);
-            this.SubCipher.Controls.Add(this.groupBox1);
+            this.SubCipher.Controls.Add(this.CharMap);
             this.SubCipher.Controls.Add(this.SubGuess);
             this.SubCipher.Location = new System.Drawing.Point(4, 22);
             this.SubCipher.Name = "SubCipher";
@@ -650,76 +650,76 @@
             this.SubGuess.UseVisualStyleBackColor = true;
             this.SubGuess.Click += new System.EventHandler(this.SubGuess_Click);
             // 
-            // groupBox1
+            // CharMap
             // 
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.Z);
-            this.groupBox1.Controls.Add(this.label30);
-            this.groupBox1.Controls.Add(this.Y);
-            this.groupBox1.Controls.Add(this.label31);
-            this.groupBox1.Controls.Add(this.X);
-            this.groupBox1.Controls.Add(this.label24);
-            this.groupBox1.Controls.Add(this.W);
-            this.groupBox1.Controls.Add(this.label25);
-            this.groupBox1.Controls.Add(this.V);
-            this.groupBox1.Controls.Add(this.label26);
-            this.groupBox1.Controls.Add(this.U);
-            this.groupBox1.Controls.Add(this.label27);
-            this.groupBox1.Controls.Add(this.T);
-            this.groupBox1.Controls.Add(this.label20);
-            this.groupBox1.Controls.Add(this.S);
-            this.groupBox1.Controls.Add(this.label21);
-            this.groupBox1.Controls.Add(this.R);
-            this.groupBox1.Controls.Add(this.label22);
-            this.groupBox1.Controls.Add(this.Q);
-            this.groupBox1.Controls.Add(this.label23);
-            this.groupBox1.Controls.Add(this.P);
-            this.groupBox1.Controls.Add(this.label16);
-            this.groupBox1.Controls.Add(this.O);
-            this.groupBox1.Controls.Add(this.label17);
-            this.groupBox1.Controls.Add(this.N);
-            this.groupBox1.Controls.Add(this.label18);
-            this.groupBox1.Controls.Add(this.M);
-            this.groupBox1.Controls.Add(this.label19);
-            this.groupBox1.Controls.Add(this.L);
-            this.groupBox1.Controls.Add(this.label12);
-            this.groupBox1.Controls.Add(this.K);
-            this.groupBox1.Controls.Add(this.label13);
-            this.groupBox1.Controls.Add(this.J);
-            this.groupBox1.Controls.Add(this.label14);
-            this.groupBox1.Controls.Add(this.I);
-            this.groupBox1.Controls.Add(this.label15);
-            this.groupBox1.Controls.Add(this.H);
-            this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.G);
-            this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.F);
-            this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.E);
-            this.groupBox1.Controls.Add(this.label11);
-            this.groupBox1.Controls.Add(this.D);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.C);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.B);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.A);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Location = new System.Drawing.Point(906, 6);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(100, 450);
-            this.groupBox1.TabIndex = 2;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Char Mapping";
+            this.CharMap.Controls.Add(this.SetCharMap);
+            this.CharMap.Controls.Add(this.Z);
+            this.CharMap.Controls.Add(this.labelY);
+            this.CharMap.Controls.Add(this.Y);
+            this.CharMap.Controls.Add(this.labelX);
+            this.CharMap.Controls.Add(this.X);
+            this.CharMap.Controls.Add(this.labelW);
+            this.CharMap.Controls.Add(this.W);
+            this.CharMap.Controls.Add(this.labelV);
+            this.CharMap.Controls.Add(this.V);
+            this.CharMap.Controls.Add(this.labelU);
+            this.CharMap.Controls.Add(this.U);
+            this.CharMap.Controls.Add(this.labelT);
+            this.CharMap.Controls.Add(this.T);
+            this.CharMap.Controls.Add(this.labelS);
+            this.CharMap.Controls.Add(this.S);
+            this.CharMap.Controls.Add(this.labeR);
+            this.CharMap.Controls.Add(this.R);
+            this.CharMap.Controls.Add(this.labelQ);
+            this.CharMap.Controls.Add(this.Q);
+            this.CharMap.Controls.Add(this.labeP);
+            this.CharMap.Controls.Add(this.P);
+            this.CharMap.Controls.Add(this.labelZ);
+            this.CharMap.Controls.Add(this.O);
+            this.CharMap.Controls.Add(this.labelO);
+            this.CharMap.Controls.Add(this.N);
+            this.CharMap.Controls.Add(this.labelN);
+            this.CharMap.Controls.Add(this.M);
+            this.CharMap.Controls.Add(this.labelM);
+            this.CharMap.Controls.Add(this.L);
+            this.CharMap.Controls.Add(this.labelL);
+            this.CharMap.Controls.Add(this.K);
+            this.CharMap.Controls.Add(this.labelK);
+            this.CharMap.Controls.Add(this.J);
+            this.CharMap.Controls.Add(this.labelJ);
+            this.CharMap.Controls.Add(this.I);
+            this.CharMap.Controls.Add(this.labelI);
+            this.CharMap.Controls.Add(this.H);
+            this.CharMap.Controls.Add(this.labelH);
+            this.CharMap.Controls.Add(this.G);
+            this.CharMap.Controls.Add(this.labelG);
+            this.CharMap.Controls.Add(this.F);
+            this.CharMap.Controls.Add(this.labelF);
+            this.CharMap.Controls.Add(this.E);
+            this.CharMap.Controls.Add(this.labelE);
+            this.CharMap.Controls.Add(this.D);
+            this.CharMap.Controls.Add(this.labelD);
+            this.CharMap.Controls.Add(this.C);
+            this.CharMap.Controls.Add(this.labelC);
+            this.CharMap.Controls.Add(this.B);
+            this.CharMap.Controls.Add(this.labelB);
+            this.CharMap.Controls.Add(this.A);
+            this.CharMap.Controls.Add(this.labelA);
+            this.CharMap.Location = new System.Drawing.Point(906, 6);
+            this.CharMap.Name = "CharMap";
+            this.CharMap.Size = new System.Drawing.Size(100, 450);
+            this.CharMap.TabIndex = 2;
+            this.CharMap.TabStop = false;
+            this.CharMap.Text = "Char Mapping";
             // 
-            // label4
+            // labelA
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(9, 25);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(14, 13);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "A";
+            this.labelA.AutoSize = true;
+            this.labelA.Location = new System.Drawing.Point(9, 25);
+            this.labelA.Name = "labelA";
+            this.labelA.Size = new System.Drawing.Size(14, 13);
+            this.labelA.TabIndex = 1;
+            this.labelA.Text = "A";
             // 
             // A
             // 
@@ -729,14 +729,14 @@
             this.A.TabIndex = 2;
             this.A.Text = "-";
             // 
-            // label5
+            // labelB
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(9, 51);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(14, 13);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "B";
+            this.labelB.AutoSize = true;
+            this.labelB.Location = new System.Drawing.Point(9, 51);
+            this.labelB.Name = "labelB";
+            this.labelB.Size = new System.Drawing.Size(14, 13);
+            this.labelB.TabIndex = 3;
+            this.labelB.Text = "B";
             // 
             // B
             // 
@@ -746,14 +746,14 @@
             this.B.TabIndex = 4;
             this.B.Text = "-";
             // 
-            // label6
+            // labelC
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(9, 77);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(14, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "C";
+            this.labelC.AutoSize = true;
+            this.labelC.Location = new System.Drawing.Point(9, 77);
+            this.labelC.Name = "labelC";
+            this.labelC.Size = new System.Drawing.Size(14, 13);
+            this.labelC.TabIndex = 5;
+            this.labelC.Text = "C";
             // 
             // C
             // 
@@ -763,14 +763,14 @@
             this.C.TabIndex = 6;
             this.C.Text = "-";
             // 
-            // label7
+            // labelD
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(9, 103);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(15, 13);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "D";
+            this.labelD.AutoSize = true;
+            this.labelD.Location = new System.Drawing.Point(9, 103);
+            this.labelD.Name = "labelD";
+            this.labelD.Size = new System.Drawing.Size(15, 13);
+            this.labelD.TabIndex = 7;
+            this.labelD.Text = "D";
             // 
             // D
             // 
@@ -780,14 +780,14 @@
             this.D.TabIndex = 8;
             this.D.Text = "-";
             // 
-            // label11
+            // labelE
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(9, 129);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(14, 13);
-            this.label11.TabIndex = 9;
-            this.label11.Text = "E";
+            this.labelE.AutoSize = true;
+            this.labelE.Location = new System.Drawing.Point(9, 129);
+            this.labelE.Name = "labelE";
+            this.labelE.Size = new System.Drawing.Size(14, 13);
+            this.labelE.TabIndex = 9;
+            this.labelE.Text = "E";
             // 
             // E
             // 
@@ -797,14 +797,14 @@
             this.E.TabIndex = 10;
             this.E.Text = "-";
             // 
-            // label10
+            // labelF
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(9, 155);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(13, 13);
-            this.label10.TabIndex = 11;
-            this.label10.Text = "F";
+            this.labelF.AutoSize = true;
+            this.labelF.Location = new System.Drawing.Point(9, 155);
+            this.labelF.Name = "labelF";
+            this.labelF.Size = new System.Drawing.Size(13, 13);
+            this.labelF.TabIndex = 11;
+            this.labelF.Text = "F";
             // 
             // F
             // 
@@ -814,14 +814,14 @@
             this.F.TabIndex = 12;
             this.F.Text = "-";
             // 
-            // label9
+            // labelG
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(9, 181);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(15, 13);
-            this.label9.TabIndex = 13;
-            this.label9.Text = "G";
+            this.labelG.AutoSize = true;
+            this.labelG.Location = new System.Drawing.Point(9, 181);
+            this.labelG.Name = "labelG";
+            this.labelG.Size = new System.Drawing.Size(15, 13);
+            this.labelG.TabIndex = 13;
+            this.labelG.Text = "G";
             // 
             // G
             // 
@@ -831,14 +831,14 @@
             this.G.TabIndex = 14;
             this.G.Text = "-";
             // 
-            // label8
+            // labelH
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(9, 207);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(15, 13);
-            this.label8.TabIndex = 15;
-            this.label8.Text = "H";
+            this.labelH.AutoSize = true;
+            this.labelH.Location = new System.Drawing.Point(9, 207);
+            this.labelH.Name = "labelH";
+            this.labelH.Size = new System.Drawing.Size(15, 13);
+            this.labelH.TabIndex = 15;
+            this.labelH.Text = "H";
             // 
             // H
             // 
@@ -848,14 +848,14 @@
             this.H.TabIndex = 16;
             this.H.Text = "-";
             // 
-            // label15
+            // labelI
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(9, 233);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(10, 13);
-            this.label15.TabIndex = 17;
-            this.label15.Text = "I";
+            this.labelI.AutoSize = true;
+            this.labelI.Location = new System.Drawing.Point(9, 233);
+            this.labelI.Name = "labelI";
+            this.labelI.Size = new System.Drawing.Size(10, 13);
+            this.labelI.TabIndex = 17;
+            this.labelI.Text = "I";
             // 
             // I
             // 
@@ -865,14 +865,14 @@
             this.I.TabIndex = 18;
             this.I.Text = "-";
             // 
-            // label14
+            // labelJ
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(9, 259);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(12, 13);
-            this.label14.TabIndex = 19;
-            this.label14.Text = "J";
+            this.labelJ.AutoSize = true;
+            this.labelJ.Location = new System.Drawing.Point(9, 259);
+            this.labelJ.Name = "labelJ";
+            this.labelJ.Size = new System.Drawing.Size(12, 13);
+            this.labelJ.TabIndex = 19;
+            this.labelJ.Text = "J";
             // 
             // J
             // 
@@ -882,14 +882,14 @@
             this.J.TabIndex = 20;
             this.J.Text = "-";
             // 
-            // label13
+            // labelK
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(9, 285);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(14, 13);
-            this.label13.TabIndex = 21;
-            this.label13.Text = "K";
+            this.labelK.AutoSize = true;
+            this.labelK.Location = new System.Drawing.Point(9, 285);
+            this.labelK.Name = "labelK";
+            this.labelK.Size = new System.Drawing.Size(14, 13);
+            this.labelK.TabIndex = 21;
+            this.labelK.Text = "K";
             // 
             // K
             // 
@@ -899,14 +899,14 @@
             this.K.TabIndex = 22;
             this.K.Text = "-";
             // 
-            // label12
+            // labelL
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(9, 311);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(13, 13);
-            this.label12.TabIndex = 23;
-            this.label12.Text = "L";
+            this.labelL.AutoSize = true;
+            this.labelL.Location = new System.Drawing.Point(9, 311);
+            this.labelL.Name = "labelL";
+            this.labelL.Size = new System.Drawing.Size(13, 13);
+            this.labelL.TabIndex = 23;
+            this.labelL.Text = "L";
             // 
             // L
             // 
@@ -916,14 +916,14 @@
             this.L.TabIndex = 24;
             this.L.Text = "-";
             // 
-            // label19
+            // labelM
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(9, 337);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(16, 13);
-            this.label19.TabIndex = 25;
-            this.label19.Text = "M";
+            this.labelM.AutoSize = true;
+            this.labelM.Location = new System.Drawing.Point(9, 337);
+            this.labelM.Name = "labelM";
+            this.labelM.Size = new System.Drawing.Size(16, 13);
+            this.labelM.TabIndex = 25;
+            this.labelM.Text = "M";
             // 
             // M
             // 
@@ -933,14 +933,14 @@
             this.M.TabIndex = 26;
             this.M.Text = "-";
             // 
-            // label18
+            // labelN
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(54, 22);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(15, 13);
-            this.label18.TabIndex = 27;
-            this.label18.Text = "N";
+            this.labelN.AutoSize = true;
+            this.labelN.Location = new System.Drawing.Point(54, 22);
+            this.labelN.Name = "labelN";
+            this.labelN.Size = new System.Drawing.Size(15, 13);
+            this.labelN.TabIndex = 27;
+            this.labelN.Text = "N";
             // 
             // N
             // 
@@ -950,14 +950,14 @@
             this.N.TabIndex = 28;
             this.N.Text = "-";
             // 
-            // label17
+            // labelO
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(54, 48);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(15, 13);
-            this.label17.TabIndex = 29;
-            this.label17.Text = "O";
+            this.labelO.AutoSize = true;
+            this.labelO.Location = new System.Drawing.Point(54, 48);
+            this.labelO.Name = "labelO";
+            this.labelO.Size = new System.Drawing.Size(15, 13);
+            this.labelO.TabIndex = 29;
+            this.labelO.Text = "O";
             // 
             // O
             // 
@@ -967,14 +967,14 @@
             this.O.TabIndex = 30;
             this.O.Text = "-";
             // 
-            // label16
+            // labelZ
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(51, 334);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(14, 13);
-            this.label16.TabIndex = 31;
-            this.label16.Text = "Z";
+            this.labelZ.AutoSize = true;
+            this.labelZ.Location = new System.Drawing.Point(51, 334);
+            this.labelZ.Name = "labelZ";
+            this.labelZ.Size = new System.Drawing.Size(14, 13);
+            this.labelZ.TabIndex = 31;
+            this.labelZ.Text = "Z";
             // 
             // P
             // 
@@ -984,14 +984,14 @@
             this.P.TabIndex = 32;
             this.P.Text = "-";
             // 
-            // label23
+            // labeP
             // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(52, 74);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(14, 13);
-            this.label23.TabIndex = 33;
-            this.label23.Text = "P";
+            this.labeP.AutoSize = true;
+            this.labeP.Location = new System.Drawing.Point(52, 74);
+            this.labeP.Name = "labeP";
+            this.labeP.Size = new System.Drawing.Size(14, 13);
+            this.labeP.TabIndex = 33;
+            this.labeP.Text = "P";
             // 
             // Q
             // 
@@ -1001,14 +1001,14 @@
             this.Q.TabIndex = 34;
             this.Q.Text = "-";
             // 
-            // label22
+            // labelQ
             // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(52, 100);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(15, 13);
-            this.label22.TabIndex = 35;
-            this.label22.Text = "Q";
+            this.labelQ.AutoSize = true;
+            this.labelQ.Location = new System.Drawing.Point(52, 100);
+            this.labelQ.Name = "labelQ";
+            this.labelQ.Size = new System.Drawing.Size(15, 13);
+            this.labelQ.TabIndex = 35;
+            this.labelQ.Text = "Q";
             // 
             // R
             // 
@@ -1018,14 +1018,14 @@
             this.R.TabIndex = 36;
             this.R.Text = "-";
             // 
-            // label21
+            // labeR
             // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(52, 126);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(15, 13);
-            this.label21.TabIndex = 37;
-            this.label21.Text = "R";
+            this.labeR.AutoSize = true;
+            this.labeR.Location = new System.Drawing.Point(52, 126);
+            this.labeR.Name = "labeR";
+            this.labeR.Size = new System.Drawing.Size(15, 13);
+            this.labeR.TabIndex = 37;
+            this.labeR.Text = "R";
             // 
             // S
             // 
@@ -1035,14 +1035,14 @@
             this.S.TabIndex = 38;
             this.S.Text = "-";
             // 
-            // label20
+            // labelS
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(52, 152);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(14, 13);
-            this.label20.TabIndex = 39;
-            this.label20.Text = "S";
+            this.labelS.AutoSize = true;
+            this.labelS.Location = new System.Drawing.Point(52, 152);
+            this.labelS.Name = "labelS";
+            this.labelS.Size = new System.Drawing.Size(14, 13);
+            this.labelS.TabIndex = 39;
+            this.labelS.Text = "S";
             // 
             // T
             // 
@@ -1052,14 +1052,14 @@
             this.T.TabIndex = 40;
             this.T.Text = "-";
             // 
-            // label27
+            // labelT
             // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(52, 178);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(14, 13);
-            this.label27.TabIndex = 41;
-            this.label27.Text = "T";
+            this.labelT.AutoSize = true;
+            this.labelT.Location = new System.Drawing.Point(52, 178);
+            this.labelT.Name = "labelT";
+            this.labelT.Size = new System.Drawing.Size(14, 13);
+            this.labelT.TabIndex = 41;
+            this.labelT.Text = "T";
             // 
             // U
             // 
@@ -1069,14 +1069,14 @@
             this.U.TabIndex = 42;
             this.U.Text = "-";
             // 
-            // label26
+            // labelU
             // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(52, 204);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(15, 13);
-            this.label26.TabIndex = 43;
-            this.label26.Text = "U";
+            this.labelU.AutoSize = true;
+            this.labelU.Location = new System.Drawing.Point(52, 204);
+            this.labelU.Name = "labelU";
+            this.labelU.Size = new System.Drawing.Size(15, 13);
+            this.labelU.TabIndex = 43;
+            this.labelU.Text = "U";
             // 
             // V
             // 
@@ -1086,14 +1086,14 @@
             this.V.TabIndex = 44;
             this.V.Text = "-";
             // 
-            // label25
+            // labelV
             // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(52, 230);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(14, 13);
-            this.label25.TabIndex = 45;
-            this.label25.Text = "V";
+            this.labelV.AutoSize = true;
+            this.labelV.Location = new System.Drawing.Point(52, 230);
+            this.labelV.Name = "labelV";
+            this.labelV.Size = new System.Drawing.Size(14, 13);
+            this.labelV.TabIndex = 45;
+            this.labelV.Text = "V";
             // 
             // W
             // 
@@ -1103,14 +1103,14 @@
             this.W.TabIndex = 46;
             this.W.Text = "-";
             // 
-            // label24
+            // labelW
             // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(52, 256);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(18, 13);
-            this.label24.TabIndex = 47;
-            this.label24.Text = "W";
+            this.labelW.AutoSize = true;
+            this.labelW.Location = new System.Drawing.Point(52, 256);
+            this.labelW.Name = "labelW";
+            this.labelW.Size = new System.Drawing.Size(18, 13);
+            this.labelW.TabIndex = 47;
+            this.labelW.Text = "W";
             // 
             // X
             // 
@@ -1120,14 +1120,14 @@
             this.X.TabIndex = 48;
             this.X.Text = "-";
             // 
-            // label31
+            // labelX
             // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(52, 282);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(14, 13);
-            this.label31.TabIndex = 49;
-            this.label31.Text = "X";
+            this.labelX.AutoSize = true;
+            this.labelX.Location = new System.Drawing.Point(52, 282);
+            this.labelX.Name = "labelX";
+            this.labelX.Size = new System.Drawing.Size(14, 13);
+            this.labelX.TabIndex = 49;
+            this.labelX.Text = "X";
             // 
             // Y
             // 
@@ -1137,14 +1137,14 @@
             this.Y.TabIndex = 50;
             this.Y.Text = "-";
             // 
-            // label30
+            // labelY
             // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(52, 308);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(14, 13);
-            this.label30.TabIndex = 51;
-            this.label30.Text = "Y";
+            this.labelY.AutoSize = true;
+            this.labelY.Location = new System.Drawing.Point(52, 308);
+            this.labelY.Name = "labelY";
+            this.labelY.Size = new System.Drawing.Size(14, 13);
+            this.labelY.TabIndex = 51;
+            this.labelY.Text = "Y";
             // 
             // Z
             // 
@@ -1154,36 +1154,36 @@
             this.Z.TabIndex = 52;
             this.Z.Text = "-";
             // 
-            // button4
+            // SetCharMap
             // 
-            this.button4.Location = new System.Drawing.Point(6, 387);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(88, 57);
-            this.button4.TabIndex = 53;
-            this.button4.Text = "Set Char Mapping";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.CharMap_Click);
+            this.SetCharMap.Location = new System.Drawing.Point(6, 387);
+            this.SetCharMap.Name = "SetCharMap";
+            this.SetCharMap.Size = new System.Drawing.Size(88, 57);
+            this.SetCharMap.TabIndex = 53;
+            this.SetCharMap.Text = "Set Char Mapping";
+            this.SetCharMap.UseVisualStyleBackColor = true;
+            this.SetCharMap.Click += new System.EventHandler(this.CharMap_Click);
             // 
             // SubTC
             // 
-            this.SubTC.Controls.Add(this.tabPage11);
-            this.SubTC.Controls.Add(this.tabPage12);
-            this.SubTC.Controls.Add(this.tabPage13);
+            this.SubTC.Controls.Add(this.SubCT);
+            this.SubTC.Controls.Add(this.SubPT);
+            this.SubTC.Controls.Add(this.SubCG);
             this.SubTC.Location = new System.Drawing.Point(6, 6);
             this.SubTC.Name = "SubTC";
             this.SubTC.SelectedIndex = 0;
             this.SubTC.Size = new System.Drawing.Size(850, 450);
             this.SubTC.TabIndex = 6;
             // 
-            // tabPage13
+            // SubCG
             // 
-            this.tabPage13.Controls.Add(this.K2);
-            this.tabPage13.Location = new System.Drawing.Point(4, 22);
-            this.tabPage13.Name = "tabPage13";
-            this.tabPage13.Size = new System.Drawing.Size(842, 424);
-            this.tabPage13.TabIndex = 2;
-            this.tabPage13.Text = "Current Guess";
-            this.tabPage13.UseVisualStyleBackColor = true;
+            this.SubCG.Controls.Add(this.K2);
+            this.SubCG.Location = new System.Drawing.Point(4, 22);
+            this.SubCG.Name = "SubCG";
+            this.SubCG.Size = new System.Drawing.Size(842, 424);
+            this.SubCG.TabIndex = 2;
+            this.SubCG.Text = "Current Guess";
+            this.SubCG.UseVisualStyleBackColor = true;
             // 
             // K2
             // 
@@ -1196,16 +1196,16 @@
             this.K2.TabIndex = 0;
             this.K2.Text = "";
             // 
-            // tabPage12
+            // SubPT
             // 
-            this.tabPage12.Controls.Add(this.P2);
-            this.tabPage12.Location = new System.Drawing.Point(4, 22);
-            this.tabPage12.Name = "tabPage12";
-            this.tabPage12.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage12.Size = new System.Drawing.Size(842, 424);
-            this.tabPage12.TabIndex = 1;
-            this.tabPage12.Text = "PlainText";
-            this.tabPage12.UseVisualStyleBackColor = true;
+            this.SubPT.Controls.Add(this.P2);
+            this.SubPT.Location = new System.Drawing.Point(4, 22);
+            this.SubPT.Name = "SubPT";
+            this.SubPT.Padding = new System.Windows.Forms.Padding(3);
+            this.SubPT.Size = new System.Drawing.Size(842, 424);
+            this.SubPT.TabIndex = 1;
+            this.SubPT.Text = "PlainText";
+            this.SubPT.UseVisualStyleBackColor = true;
             // 
             // P2
             // 
@@ -1216,16 +1216,16 @@
             this.P2.TabIndex = 0;
             this.P2.Text = "";
             // 
-            // tabPage11
+            // SubCT
             // 
-            this.tabPage11.Controls.Add(this.C2);
-            this.tabPage11.Location = new System.Drawing.Point(4, 22);
-            this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage11.Size = new System.Drawing.Size(842, 424);
-            this.tabPage11.TabIndex = 0;
-            this.tabPage11.Text = "Cipher Text";
-            this.tabPage11.UseVisualStyleBackColor = true;
+            this.SubCT.Controls.Add(this.C2);
+            this.SubCT.Location = new System.Drawing.Point(4, 22);
+            this.SubCT.Name = "SubCT";
+            this.SubCT.Padding = new System.Windows.Forms.Padding(3);
+            this.SubCT.Size = new System.Drawing.Size(842, 424);
+            this.SubCT.TabIndex = 0;
+            this.SubCT.Text = "Cipher Text";
+            this.SubCT.UseVisualStyleBackColor = true;
             // 
             // C2
             // 
@@ -1260,24 +1260,24 @@
             // 
             // ShiftTC
             // 
-            this.ShiftTC.Controls.Add(this.tabPage8);
-            this.ShiftTC.Controls.Add(this.tabPage9);
-            this.ShiftTC.Controls.Add(this.tabPage10);
+            this.ShiftTC.Controls.Add(this.ShiftCT);
+            this.ShiftTC.Controls.Add(this.ShiftPT);
+            this.ShiftTC.Controls.Add(this.ShiftCG);
             this.ShiftTC.Location = new System.Drawing.Point(6, 6);
             this.ShiftTC.Name = "ShiftTC";
             this.ShiftTC.SelectedIndex = 0;
             this.ShiftTC.Size = new System.Drawing.Size(850, 450);
             this.ShiftTC.TabIndex = 6;
             // 
-            // tabPage10
+            // ShiftCG
             // 
-            this.tabPage10.Controls.Add(this.K1);
-            this.tabPage10.Location = new System.Drawing.Point(4, 22);
-            this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Size = new System.Drawing.Size(842, 424);
-            this.tabPage10.TabIndex = 2;
-            this.tabPage10.Text = "Current Guess";
-            this.tabPage10.UseVisualStyleBackColor = true;
+            this.ShiftCG.Controls.Add(this.K1);
+            this.ShiftCG.Location = new System.Drawing.Point(4, 22);
+            this.ShiftCG.Name = "ShiftCG";
+            this.ShiftCG.Size = new System.Drawing.Size(842, 424);
+            this.ShiftCG.TabIndex = 2;
+            this.ShiftCG.Text = "Current Guess";
+            this.ShiftCG.UseVisualStyleBackColor = true;
             // 
             // K1
             // 
@@ -1290,16 +1290,16 @@
             this.K1.TabIndex = 0;
             this.K1.Text = "";
             // 
-            // tabPage9
+            // ShiftPT
             // 
-            this.tabPage9.Controls.Add(this.P1);
-            this.tabPage9.Location = new System.Drawing.Point(4, 22);
-            this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(842, 424);
-            this.tabPage9.TabIndex = 1;
-            this.tabPage9.Text = "PlainText";
-            this.tabPage9.UseVisualStyleBackColor = true;
+            this.ShiftPT.Controls.Add(this.P1);
+            this.ShiftPT.Location = new System.Drawing.Point(4, 22);
+            this.ShiftPT.Name = "ShiftPT";
+            this.ShiftPT.Padding = new System.Windows.Forms.Padding(3);
+            this.ShiftPT.Size = new System.Drawing.Size(842, 424);
+            this.ShiftPT.TabIndex = 1;
+            this.ShiftPT.Text = "PlainText";
+            this.ShiftPT.UseVisualStyleBackColor = true;
             // 
             // P1
             // 
@@ -1310,16 +1310,16 @@
             this.P1.TabIndex = 0;
             this.P1.Text = "";
             // 
-            // tabPage8
+            // ShiftCT
             // 
-            this.tabPage8.Controls.Add(this.C1);
-            this.tabPage8.Location = new System.Drawing.Point(4, 22);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(842, 424);
-            this.tabPage8.TabIndex = 0;
-            this.tabPage8.Text = "Cipher Text";
-            this.tabPage8.UseVisualStyleBackColor = true;
+            this.ShiftCT.Controls.Add(this.C1);
+            this.ShiftCT.Location = new System.Drawing.Point(4, 22);
+            this.ShiftCT.Name = "ShiftCT";
+            this.ShiftCT.Padding = new System.Windows.Forms.Padding(3);
+            this.ShiftCT.Size = new System.Drawing.Size(842, 424);
+            this.ShiftCT.TabIndex = 0;
+            this.ShiftCT.Text = "Cipher Text";
+            this.ShiftCT.UseVisualStyleBackColor = true;
             // 
             // C1
             // 
@@ -1357,30 +1357,30 @@
             this.menuStrip1.PerformLayout();
             this.HillTP.ResumeLayout(false);
             this.HillTC.ResumeLayout(false);
-            this.tabPage20.ResumeLayout(false);
-            this.tabPage19.ResumeLayout(false);
-            this.tabPage18.ResumeLayout(false);
+            this.HillCG.ResumeLayout(false);
+            this.HillPT.ResumeLayout(false);
+            this.HillCT.ResumeLayout(false);
             this.HillUserInputGroup.ResumeLayout(false);
             this.HillUserInputGroup.PerformLayout();
             this.AffineTP.ResumeLayout(false);
             this.AffineTC.ResumeLayout(false);
-            this.tabPage16.ResumeLayout(false);
-            this.tabPage15.ResumeLayout(false);
-            this.tabPage14.ResumeLayout(false);
+            this.AffCG.ResumeLayout(false);
+            this.AffPT.ResumeLayout(false);
+            this.AffCT.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.SubCipher.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.CharMap.ResumeLayout(false);
+            this.CharMap.PerformLayout();
             this.SubTC.ResumeLayout(false);
-            this.tabPage13.ResumeLayout(false);
-            this.tabPage12.ResumeLayout(false);
-            this.tabPage11.ResumeLayout(false);
+            this.SubCG.ResumeLayout(false);
+            this.SubPT.ResumeLayout(false);
+            this.SubCT.ResumeLayout(false);
             this.ShiftTP.ResumeLayout(false);
             this.ShiftTC.ResumeLayout(false);
-            this.tabPage10.ResumeLayout(false);
-            this.tabPage9.ResumeLayout(false);
-            this.tabPage8.ResumeLayout(false);
+            this.ShiftCG.ResumeLayout(false);
+            this.ShiftPT.ResumeLayout(false);
+            this.ShiftCT.ResumeLayout(false);
             this.CipherTP.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1396,114 +1396,114 @@
         private System.Windows.Forms.TabPage tabPage7;
         private System.Windows.Forms.TabPage HillTP;
         private System.Windows.Forms.GroupBox HillUserInputGroup;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label HillTip;
+        private System.Windows.Forms.Label HillPT1Guess;
         private System.Windows.Forms.TextBox Hill_N;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label HillNLbl;
+        private System.Windows.Forms.Label HillCT2Guess;
         private System.Windows.Forms.ComboBox HillPlainText1;
-        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label HillPT2Guess;
         private System.Windows.Forms.ComboBox HillCipherText2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label HillCT1Guess;
         private System.Windows.Forms.ComboBox HillCipherText1;
         private System.Windows.Forms.ComboBox HillPlainText2;
         private System.Windows.Forms.Button HillGuess;
         private System.Windows.Forms.TabControl HillTC;
-        private System.Windows.Forms.TabPage tabPage18;
+        private System.Windows.Forms.TabPage HillCT;
         private System.Windows.Forms.RichTextBox C4;
-        private System.Windows.Forms.TabPage tabPage19;
+        private System.Windows.Forms.TabPage HillPT;
         private System.Windows.Forms.RichTextBox P4;
-        private System.Windows.Forms.TabPage tabPage20;
+        private System.Windows.Forms.TabPage HillCG;
         private System.Windows.Forms.RichTextBox K4;
         private System.Windows.Forms.TabPage AffineTP;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label AffTip;
+        private System.Windows.Forms.Label AffPT1Guess;
+        private System.Windows.Forms.Label AffCT2Guess;
         private System.Windows.Forms.ComboBox AffPlainText1;
-        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label AffPT2Guess;
         private System.Windows.Forms.ComboBox AffCipherText2;
-        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label AffCT1Guess;
         private System.Windows.Forms.ComboBox AffCipherText1;
         private System.Windows.Forms.ComboBox AffPlainText2;
         private System.Windows.Forms.TabControl AffineTC;
-        private System.Windows.Forms.TabPage tabPage14;
+        private System.Windows.Forms.TabPage AffCT;
         private System.Windows.Forms.RichTextBox C3;
-        private System.Windows.Forms.TabPage tabPage15;
+        private System.Windows.Forms.TabPage AffPT;
         private System.Windows.Forms.RichTextBox P3;
-        private System.Windows.Forms.TabPage tabPage16;
+        private System.Windows.Forms.TabPage AffCG;
         private System.Windows.Forms.RichTextBox K3;
         private System.Windows.Forms.Button AffGuess;
         private System.Windows.Forms.TabPage SubCipher;
         private System.Windows.Forms.TabControl SubTC;
-        private System.Windows.Forms.TabPage tabPage11;
+        private System.Windows.Forms.TabPage SubCT;
         private System.Windows.Forms.RichTextBox C2;
-        private System.Windows.Forms.TabPage tabPage12;
+        private System.Windows.Forms.TabPage SubPT;
         private System.Windows.Forms.RichTextBox P2;
-        private System.Windows.Forms.TabPage tabPage13;
+        private System.Windows.Forms.TabPage SubCG;
         private System.Windows.Forms.RichTextBox K2;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.GroupBox CharMap;
+        private System.Windows.Forms.Button SetCharMap;
         private System.Windows.Forms.TextBox Z;
-        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label labelY;
         private System.Windows.Forms.TextBox Y;
-        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label labelX;
         private System.Windows.Forms.TextBox X;
-        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label labelW;
         private System.Windows.Forms.TextBox W;
-        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label labelV;
         private System.Windows.Forms.TextBox V;
-        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label labelU;
         private System.Windows.Forms.TextBox U;
-        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label labelT;
         private System.Windows.Forms.TextBox T;
-        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label labelS;
         private System.Windows.Forms.TextBox S;
-        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label labeR;
         private System.Windows.Forms.TextBox R;
-        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label labelQ;
         private System.Windows.Forms.TextBox Q;
-        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label labeP;
         private System.Windows.Forms.TextBox P;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label labelZ;
         private System.Windows.Forms.TextBox O;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label labelO;
         private System.Windows.Forms.TextBox N;
-        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label labelN;
         private System.Windows.Forms.TextBox M;
-        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label labelM;
         private System.Windows.Forms.TextBox L;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label labelL;
         private System.Windows.Forms.TextBox K;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label labelK;
         private System.Windows.Forms.TextBox J;
-        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label labelJ;
         private System.Windows.Forms.TextBox I;
-        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label labelI;
         private System.Windows.Forms.TextBox H;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label labelH;
         private System.Windows.Forms.TextBox G;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label labelG;
         private System.Windows.Forms.TextBox F;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label labelF;
         private System.Windows.Forms.TextBox E;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label labelE;
         private System.Windows.Forms.TextBox D;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label labelD;
         private System.Windows.Forms.TextBox C;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label labelC;
         private System.Windows.Forms.TextBox B;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label labelB;
         private System.Windows.Forms.TextBox A;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labelA;
         private System.Windows.Forms.Button SubGuess;
         private System.Windows.Forms.TabPage ShiftTP;
         private System.Windows.Forms.TabControl ShiftTC;
-        private System.Windows.Forms.TabPage tabPage8;
+        private System.Windows.Forms.TabPage ShiftCT;
         private System.Windows.Forms.RichTextBox C1;
-        private System.Windows.Forms.TabPage tabPage9;
+        private System.Windows.Forms.TabPage ShiftPT;
         private System.Windows.Forms.RichTextBox P1;
-        private System.Windows.Forms.TabPage tabPage10;
+        private System.Windows.Forms.TabPage ShiftCG;
         private System.Windows.Forms.RichTextBox K1;
         private System.Windows.Forms.Button ShiftGuess;
         private System.Windows.Forms.TabControl CipherTP;

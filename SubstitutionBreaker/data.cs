@@ -56,7 +56,7 @@ namespace SubstitutionBreaker
             StringBuilder res = new StringBuilder(cipherText.Length);
             for (int i = 0; i < cipherText.Length; i++)
             {
-                if (cipherText[i] == '\n')
+                if (cipherText[i] == '\n'|| cipherText[i] == '\r')
                 {
                     res.Append("\n");
                 }

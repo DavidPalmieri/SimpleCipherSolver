@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubstitutionBreaker", "SubstitutionBreaker\SubstitutionBreaker.csproj", "{D9818CB0-F840-44A0-B02A-FEC2D82278B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCipherSolver", "SubstitutionBreaker\SimpleCipherSolver.csproj", "{D9818CB0-F840-44A0-B02A-FEC2D82278B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

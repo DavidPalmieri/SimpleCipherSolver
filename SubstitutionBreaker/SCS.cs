@@ -531,7 +531,6 @@ namespace SubstitutionBreaker
                 text.setAssign(25, Z.Text.ToUpper());
 
                 P2.Text = MakePrintable(text.Plaintext);
-                tabControl1.Text = text.getAssign();
             }
             else
             {
