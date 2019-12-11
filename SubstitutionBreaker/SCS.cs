@@ -12,7 +12,7 @@ namespace SubstitutionBreaker
         private Data text = null;
         private NGramData cipherTextData = null;
         private LangData engData = null;
-        int shift;
+        int shift_Index = 0;
         int runs = 0;
 
         double[] wieghts = new double[] { .7, .8, .9, 1, .9, .8, .7 };
@@ -48,7 +48,7 @@ namespace SubstitutionBreaker
                 }
             }
 
-            shift = 0;
+            shift_Index = 0;
             runs = 0;
             cipherTextData = new NGramData(text.cipherText);
             CheckData();
@@ -187,9 +187,9 @@ namespace SubstitutionBreaker
             {
                 text = new Data(text.cipherText);
                 P1.Text = text.Plaintext;
-                shift = 0;
+                shift_Index = 0;
                 runs = 0;
-                K1.Text = shift.ToString();
+                K1.Text = shift_Index.ToString();
 
                 SetTBs();
             }
@@ -240,6 +240,12 @@ namespace SubstitutionBreaker
         {
             if (text != null)
             {
+                int UGramLen = cipherTextData.uGramArray.Length-1;
+
+                if (shift_Index >= UGramLen)
+                    shift_Index = 0;
+
+                int shift =  cipherTextData.uGramArray[UGramLen-(shift_Index++)].Item1[0]-'E';
                 K1.Text = "Shift: " + shift;
                 text.setShift(shift++);
                 P1.Text = MakePrintable(text.Plaintext);
