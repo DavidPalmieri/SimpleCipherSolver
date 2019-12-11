@@ -753,22 +753,22 @@ namespace SubstitutionBreaker
 
         private void ShiftHelp_Click(object sender, EventArgs e)
         {
-            //ToDo add help page
+            System.Diagnostics.Process.Start("https://en.wikipedia.org/wiki/Caesar_cipher");
         }
 
         private void SubHelp_Click(object sender, EventArgs e)
         {
-            //ToDo add help page
+            System.Diagnostics.Process.Start("https://en.wikipedia.org/wiki/Substitution_cipher");
         }
 
         private void AffineHelp_Click(object sender, EventArgs e)
         {
-            //ToDo add help page
+            System.Diagnostics.Process.Start("https://en.wikipedia.org/wiki/Affine_cipher");
         }
 
         private void HillHelp_Click(object sender, EventArgs e)
         {
-            //ToDo add help page
+            System.Diagnostics.Process.Start("https://en.wikipedia.org/wiki/Hill_cipher");
         }
     }
 }
