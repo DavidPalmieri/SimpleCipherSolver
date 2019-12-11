@@ -748,7 +748,27 @@ namespace SubstitutionBreaker
             }
         }
         //End Hill
-   
 
+
+
+        private void ShiftHelp_Click(object sender, EventArgs e)
+        {
+            //ToDo add help page
+        }
+
+        private void SubHelp_Click(object sender, EventArgs e)
+        {
+            //ToDo add help page
+        }
+
+        private void AffineHelp_Click(object sender, EventArgs e)
+        {
+            //ToDo add help page
+        }
+
+        private void HillHelp_Click(object sender, EventArgs e)
+        {
+            //ToDo add help page
+        }
     }
 }
