@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using System.Text.RegularExpressions;
 
 namespace SubstitutionBreaker
 {
@@ -12,11 +13,10 @@ namespace SubstitutionBreaker
 
         public Data(string cipherText)
         {
+            Regex rgx = new Regex("[^A-Z]");
+            cipherText = rgx.Replace(cipherText, "");
+
             this.cipherText = cipherText;
-            if (this.cipherText[this.cipherText.Length - 1] == '\n')
-            {
-                this.cipherText = this.cipherText.Remove(this.cipherText.Length - 1);
-            }
 
             for (int i = 0; i < assign.Length; i++)
             {
@@ -56,7 +56,7 @@ namespace SubstitutionBreaker
             StringBuilder res = new StringBuilder(cipherText.Length);
             for (int i = 0; i < cipherText.Length; i++)
             {
-                if (cipherText[i] == '\n'|| cipherText[i] == '\r')
+                if (cipherText[i] == '\n' || cipherText[i] == '\r')
                 {
                     res.Append("\n");
                 }
@@ -176,7 +176,7 @@ namespace SubstitutionBreaker
             Matrix tmp = new Matrix(chunk.Length);
             tmp.matrix[0] = chunk[0] - 'A';
             tmp.matrix[2] = chunk[1] - 'A';
-            Matrix res = Matrix.MultMatrix2(keyInverse,tmp);
+            Matrix res = Matrix.MultMatrix2(keyInverse, tmp);
 
             decrypt.Append((char) ((res.matrix[0]) + 'A')).ToString();
             decrypt.Append((char) ((res.matrix[2]) + 'A')).ToString();

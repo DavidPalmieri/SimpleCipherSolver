@@ -563,7 +563,10 @@ namespace SubstitutionBreaker
         }
         private void AffGuess_Click(object sender, EventArgs e)
         {
+            if (AffCipherText1.Text != "" && AffCipherText1.Text != "" && AffPlainText1.Text != "" && AffPlainText2.Text != "")
             MakeAffGuess();
+            else
+                MessageBox.Show("No Guess", "Make a Guess", MessageBoxButtons.OK);
         }
 
         private void MakeAffGuess()
