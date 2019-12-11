@@ -76,7 +76,7 @@
             this.AffCG = new System.Windows.Forms.TabPage();
             this.K3 = new System.Windows.Forms.RichTextBox();
             this.AffGuess = new System.Windows.Forms.Button();
-            this.SubCipher = new System.Windows.Forms.TabPage();
+            this.SubTP = new System.Windows.Forms.TabPage();
             this.SubHelp = new System.Windows.Forms.Button();
             this.SubTC = new System.Windows.Forms.TabControl();
             this.SubCT = new System.Windows.Forms.TabPage();
@@ -164,7 +164,7 @@
             this.AffCT.SuspendLayout();
             this.AffPT.SuspendLayout();
             this.AffCG.SuspendLayout();
-            this.SubCipher.SuspendLayout();
+            this.SubTP.SuspendLayout();
             this.SubTC.SuspendLayout();
             this.SubCT.SuspendLayout();
             this.SubPT.SuspendLayout();
@@ -374,7 +374,7 @@
             this.HillGuess.Name = "HillGuess";
             this.HillGuess.Size = new System.Drawing.Size(100, 50);
             this.HillGuess.TabIndex = 7;
-            this.HillGuess.Text = "Hill Cypher Guess";
+            this.HillGuess.Text = "Hill Cipher Guess";
             this.HillGuess.UseVisualStyleBackColor = true;
             this.HillGuess.Click += new System.EventHandler(this.HillGuess_Click);
             // 
@@ -653,19 +653,19 @@
             this.AffGuess.UseVisualStyleBackColor = true;
             this.AffGuess.Click += new System.EventHandler(this.AffGuess_Click);
             // 
-            // SubCipher
+            // SubTP
             // 
-            this.SubCipher.BackColor = System.Drawing.SystemColors.Control;
-            this.SubCipher.Controls.Add(this.SubHelp);
-            this.SubCipher.Controls.Add(this.SubTC);
-            this.SubCipher.Controls.Add(this.CharMap);
-            this.SubCipher.Controls.Add(this.SubGuess);
-            this.SubCipher.Location = new System.Drawing.Point(4, 22);
-            this.SubCipher.Name = "SubCipher";
-            this.SubCipher.Padding = new System.Windows.Forms.Padding(3);
-            this.SubCipher.Size = new System.Drawing.Size(1092, 549);
-            this.SubCipher.TabIndex = 1;
-            this.SubCipher.Text = "SubTP";
+            this.SubTP.BackColor = System.Drawing.SystemColors.Control;
+            this.SubTP.Controls.Add(this.SubHelp);
+            this.SubTP.Controls.Add(this.SubTC);
+            this.SubTP.Controls.Add(this.CharMap);
+            this.SubTP.Controls.Add(this.SubGuess);
+            this.SubTP.Location = new System.Drawing.Point(4, 22);
+            this.SubTP.Name = "SubTP";
+            this.SubTP.Padding = new System.Windows.Forms.Padding(3);
+            this.SubTP.Size = new System.Drawing.Size(1092, 549);
+            this.SubTP.TabIndex = 1;
+            this.SubTP.Text = "SubCipher";
             // 
             // SubHelp
             // 
@@ -1269,7 +1269,7 @@
             this.SubGuess.Name = "SubGuess";
             this.SubGuess.Size = new System.Drawing.Size(100, 50);
             this.SubGuess.TabIndex = 1;
-            this.SubGuess.Text = "Substiution Guess";
+            this.SubGuess.Text = "Substitution Guess";
             this.SubGuess.UseVisualStyleBackColor = true;
             this.SubGuess.Click += new System.EventHandler(this.SubGuess_Click);
             // 
@@ -1381,7 +1381,7 @@
             // CipherTP
             // 
             this.CipherTP.Controls.Add(this.ShiftTP);
-            this.CipherTP.Controls.Add(this.SubCipher);
+            this.CipherTP.Controls.Add(this.SubTP);
             this.CipherTP.Controls.Add(this.AffineTP);
             this.CipherTP.Controls.Add(this.HillTP);
             this.CipherTP.Location = new System.Drawing.Point(12, 27);
@@ -1417,7 +1417,7 @@
             this.AffCT.ResumeLayout(false);
             this.AffPT.ResumeLayout(false);
             this.AffCG.ResumeLayout(false);
-            this.SubCipher.ResumeLayout(false);
+            this.SubTP.ResumeLayout(false);
             this.SubTC.ResumeLayout(false);
             this.SubCT.ResumeLayout(false);
             this.SubPT.ResumeLayout(false);
@@ -1482,7 +1482,7 @@
         private System.Windows.Forms.TabPage AffCG;
         private System.Windows.Forms.RichTextBox K3;
         private System.Windows.Forms.Button AffGuess;
-        private System.Windows.Forms.TabPage SubCipher;
+        private System.Windows.Forms.TabPage SubTP;
         private System.Windows.Forms.TabControl SubTC;
         private System.Windows.Forms.TabPage SubCT;
         private System.Windows.Forms.RichTextBox C2;
