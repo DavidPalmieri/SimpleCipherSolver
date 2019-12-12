@@ -619,6 +619,21 @@ namespace SubstitutionBreaker
         //End Sub
 
         //Affine
+
+        /// <summary>
+        ///   <para>
+        ///   Handles the SelectedIndexChanged event of the AffCipherText1 control.
+        ///   </para>
+        ///   <para>
+        ///   Makes a guess if the assignment text has changed.
+        ///   </para>
+        /// </summary>
+        /// <param name="sender">
+        /// The source of the event.
+        /// </param>
+        /// <param name="e">
+        /// The <see cref="EventArgs"/> instance containing the event data.
+        /// </param>
         private void AffCipherText1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (AffCipherText2.Text != "" && AffPlainText1.Text != "" && AffPlainText2.Text != "")
@@ -627,6 +642,20 @@ namespace SubstitutionBreaker
             }
         }
 
+        /// <summary>
+        ///   <para>
+        ///   Handles the SelectedIndexChanged event of the AffCipherText2 control.
+        ///   </para>
+        ///   <para>
+        ///   Makes a guess if the assignment text has changed.
+        ///   </para>
+        /// </summary>
+        /// <param name="sender">
+        /// The source of the event.
+        /// </param>
+        /// <param name="e">
+        /// The <see cref="EventArgs"/> instance containing the event data.
+        /// </param>
         private void AffCipherText2_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (AffCipherText1.Text != "" && AffPlainText1.Text != "" && AffPlainText2.Text != "")
@@ -634,6 +663,22 @@ namespace SubstitutionBreaker
                 MakeAffGuess();
             }
         }
+
+
+        /// <summary>
+        ///   <para>
+        ///   Handles the Click event of the AffGuess control.
+        ///   </para>
+        ///   <para>
+        ///   Makes a guess based when the button is pressed.
+        ///   </para>
+        /// </summary>
+        /// <param name="sender">
+        /// The source of the event.
+        /// </param>
+        /// <param name="e">
+        /// The <see cref="EventArgs"/> instance containing the event data.
+        /// </param>
         private void AffGuess_Click(object sender, EventArgs e)
         {
             if (AffCipherText1.Text != "" && AffCipherText1.Text != "" && AffPlainText1.Text != "" && AffPlainText2.Text != "")
@@ -642,6 +687,11 @@ namespace SubstitutionBreaker
                 MessageBox.Show("No Guess", "Make a Guess", MessageBoxButtons.OK);
         }
 
+
+        /// <summary>
+        /// Uses the guess made to the find the encryption key and, if valid, 
+        /// it uses that to decrypt the ciphertext. Then it diplays the plaintext.
+        /// </summary>
         private void MakeAffGuess()
         {
             if (text != null)
@@ -668,11 +718,16 @@ namespace SubstitutionBreaker
                         {
                             text.setAssign(i, ((char) (MakePos((i - text.b) * aInverse) % 26 + 'A')).ToString());
                         }
+
+                        K3.Text = "A: " + text.a + " |B: " + text.b + "\n";
+                        K3.Text += text.getAssign();
+                        P3.Text = MakePrintable(text.Plaintext);
+                    }
+                    else
+                    {
+                        K3.Text = "Invalid Assignment";
                     }
 
-                    K3.Text = "A: " + text.a + " |B: " + text.b + "\n";
-                    K3.Text += text.getAssign();
-                    P3.Text = MakePrintable(text.Plaintext);
                 }
                 else
                 {
@@ -685,6 +740,15 @@ namespace SubstitutionBreaker
             }
         }
 
+        /// <summary>
+        /// Gets the Z26 multiplicative inverse of an int.
+        /// </summary>
+        /// <param name="v">
+        /// The int to invert.
+        /// </param>
+        /// <returns>
+        /// v's multiplicative inverse in Z26.
+        /// </returns>
         private int GetZ26Inverse(int v)
         {
             int vPos = MakePos(v);
@@ -720,6 +784,15 @@ namespace SubstitutionBreaker
             }
         }
 
+        /// <summary>  
+        /// Converts the number into its equivalent positive integer in Z26.
+        /// </summary>
+        /// <param name="v">
+        /// The number to make positive.
+        /// </param>
+        /// <returns>
+        /// v's positive equivalent.
+        /// </returns>
         private int MakePos(int v)
         {
             int res = v;
