@@ -219,9 +219,25 @@ namespace SubstitutionBreaker
 
             return res.ToString();
         }
-        //End Opening File
+        //End Open File
 
         //Reset
+
+
+        /// <summary>
+        ///   <para>
+        ///   Handles the Click event of the resetToolStripMenuItem control.
+        ///   </para>
+        ///   <para>
+        ///   Resets the cipher so you can retry
+        ///   </para>
+        /// </summary>
+        /// <param name="sender">
+        /// The source of the event.
+        /// </param>
+        /// <param name="e">
+        /// The <see cref="EventArgs"/> instance containing the event data.
+        /// </param>
         private void resetToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (text != null)
