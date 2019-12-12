@@ -831,26 +831,83 @@ namespace SubstitutionBreaker
         }
         //End Hill
 
+        //Help Buttons
 
-
+        /// <summary>
+        ///   <para>
+        ///   Handles the Click event of the ShiftHelp control.
+        ///   </para>
+        ///   <para>
+        ///   Displays info for the shift cipher and how to use the solver (ToDo).
+        ///   </para>
+        /// </summary>
+        /// <param name="sender">
+        /// The source of the event.
+        /// </param>
+        /// <param name="e">
+        /// The <see cref="EventArgs"/> instance containing the event data.
+        /// </param>
         private void ShiftHelp_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://en.wikipedia.org/wiki/Caesar_cipher");
         }
 
+        /// <summary>
+        ///   <para>
+        ///   Handles the Click event of the SubHelp control.
+        ///   </para>
+        ///   <para>
+        ///   Displays info for the Substitution cipher and how to use the solver (ToDo).
+        ///   </para>
+        /// </summary>
+        /// <param name="sender">
+        /// The source of the event.
+        /// </param>
+        /// <param name="e">
+        /// The <see cref="EventArgs"/> instance containing the event data.
+        /// </param>
         private void SubHelp_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://en.wikipedia.org/wiki/Substitution_cipher");
         }
 
+        /// <summary>
+        ///   <para>
+        ///   Handles the Click event of the AffineHelp control.
+        ///   </para>
+        ///   <para>
+        ///   Displays info for the Affine cipher and how to use the solver (ToDo).
+        ///   </para>
+        /// </summary>
+        /// <param name="sender">
+        /// The source of the event.
+        /// </param>
+        /// <param name="e">
+        /// The <see cref="EventArgs"/> instance containing the event data.
+        /// </param>
         private void AffineHelp_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://en.wikipedia.org/wiki/Affine_cipher");
         }
 
+        /// <summary>
+        ///   <para>
+        ///   Handles the Click event of the HillHelp control.
+        ///   </para>
+        ///   <para>
+        ///   Displays info for the Hill cipher and how to use the solver (ToDo).
+        ///   </para>
+        /// </summary>
+        /// <param name="sender">
+        /// The source of the event.
+        /// </param>
+        /// <param name="e">
+        /// The <see cref="EventArgs"/> instance containing the event data.
+        /// </param>
         private void HillHelp_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://en.wikipedia.org/wiki/Hill_cipher");
         }
+        //End Help Buttons
     }
 }
