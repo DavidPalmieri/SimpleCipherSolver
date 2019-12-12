@@ -65,7 +65,7 @@ namespace SubstitutionBreaker
 
             shift_Index = 0;
             runs = 0;
-            cipherTextData = new NGramData(text.cipherText);
+            cipherTextData = new NGramData(text.cipherText.ToUpper());
             CheckData();
 
             SetTBs();
