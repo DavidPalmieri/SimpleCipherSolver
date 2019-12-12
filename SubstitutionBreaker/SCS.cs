@@ -28,6 +28,21 @@ namespace SubstitutionBreaker
         }
 
         //Open File
+
+        /// <summary>
+        ///   <para>
+        ///   Handles the Click event of the openToolStripMenuItem control.
+        ///   </para>
+        ///   <para>
+        ///   By opening a file to read the cipher out of and prepare it for later processing.
+        ///   </para>
+        /// </summary>
+        /// <param name="sender">
+        /// The source of the event.
+        /// </param>
+        /// <param name="e">
+        /// The <see cref="EventArgs"/> instance containing the event data.
+        /// </param>
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
@@ -99,6 +114,11 @@ namespace SubstitutionBreaker
             K1.Text = "Shift:  ...";
         }
 
+        /// <summary>
+        /// Checks whether a letter exist in the cipher text data. If the 
+        /// letter does not exist assign its plain text geuss as 0 so it wont
+        /// be used later.
+        /// </summary>
         private void CheckData()
         {
             if (cipherTextData.uGramArray.Length < 26)
@@ -116,6 +136,15 @@ namespace SubstitutionBreaker
             }
         }
 
+        /// <summary>
+        /// Checks if a letter exists in the ciphertext.
+        /// </summary>
+        /// <param name="j"> 
+        /// Int representation of the letter to check (A-Z→0-25) .
+        /// </param>
+        /// <returns>
+        /// True if the letter was found in the ciphertext, false otherwise.
+        /// </returns>
         private bool Exists(int j)
         {
             bool found = false;
@@ -130,6 +159,10 @@ namespace SubstitutionBreaker
             return found;
         }
 
+        /// <summary>
+        /// Sets the substitution cipher assignment TextBox's to a default values 
+        /// ('0' if not in the cipher text, '-' otherwise).
+        /// </summary>
         private void SetTBs()
         {
             int i = 0;
@@ -161,6 +194,14 @@ namespace SubstitutionBreaker
             Z.Text = text.assign[i++];
         }
 
+        /// <summary>
+        /// Converts the plaintext or ciphertext into blocks of 5 characters and 8 blocks per line for display so the user can better see changes as they use the substitution solver.</summary>
+        /// <param name="Text">
+        /// The text to be formatted.
+        /// </param>
+        /// <returns>
+        /// The formatted text.
+        /// </returns>
         private string MakePrintable(string Text)
         {
             StringBuilder res = new StringBuilder(Text.Length * 2);
