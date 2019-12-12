@@ -734,11 +734,29 @@ namespace SubstitutionBreaker
         //End Affine
 
         //Hill Cipher
+
+        /// <summary>
+        ///   <para>
+        ///   Handles the Click event of the HillGuess control.
+        ///   </para>
+        ///   <para>Makes a guess if you click the button.</para>
+        /// </summary>
+        /// <param name="sender">
+        /// The source of the event.
+        /// </param>
+        /// <param name="e">
+        /// The <see cref="EventArgs"/> instance containing the event data.
+        /// </param>
         private void HillGuess_Click(object sender, EventArgs e)
         {
             MakeHillGuess();
         }
 
+
+        /// <summary>
+        /// Makes a decryption matrix based on the guess, and uses it to 
+        /// decrypt the ciphertext and then displays the plaintext.
+        /// </summary>
         private void MakeHillGuess()
         {
             if (text != null)
@@ -814,6 +832,20 @@ namespace SubstitutionBreaker
             return;
         }
 
+        /// <summary>
+        ///   <para>
+        ///   Handles the SelectedIndexChanged event of the HillCipherText1 control.
+        ///   </para>
+        ///   <para>
+        ///   Make a guess if the text changes.
+        ///   </para>
+        /// </summary>
+        /// <param name="sender">
+        /// The source of the event.
+        /// </param>
+        /// <param name="e">
+        /// The <see cref="EventArgs"/> instance containing the event data.
+        /// </param>
         private void HillCipherText1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (HillCipherText2.Text != "" && HillPlainText1.Text != "" && HillPlainText2.Text != "")
@@ -822,6 +854,20 @@ namespace SubstitutionBreaker
             }
         }
 
+        /// <summary>
+        ///   <para>
+        ///   Handles the SelectedIndexChanged event of the HillCipherText2 control.
+        ///   </para>
+        ///   <para>
+        ///   Make a guess if the text changes.
+        ///   </para>
+        /// </summary>
+        /// <param name="sender">
+        /// The source of the event.
+        /// </param>
+        /// <param name="e">
+        /// The <see cref="EventArgs"/> instance containing the event data.
+        /// </param>
         private void HillCipherText2_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (HillCipherText1.Text != "" && HillPlainText1.Text != "" && HillPlainText2.Text != "")
@@ -866,6 +912,7 @@ namespace SubstitutionBreaker
         /// <param name="e">
         /// The <see cref="EventArgs"/> instance containing the event data.
         /// </param>
+        /// 
         private void SubHelp_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://en.wikipedia.org/wiki/Substitution_cipher");
