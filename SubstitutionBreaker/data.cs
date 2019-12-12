@@ -13,6 +13,8 @@ namespace SubstitutionBreaker
 
         public Data(string cipherText)
         {
+            cipherText = cipherText.ToUpper();
+
             Regex rgx = new Regex("[^A-Z]");
             cipherText = rgx.Replace(cipherText, "");
 

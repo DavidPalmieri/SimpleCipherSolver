@@ -62,56 +62,63 @@ namespace SubstitutionBreaker
                     }
                 }
             }
-
-            shift_Index = 0;
-            runs = 0;
-            cipherTextData = new NGramData(text.cipherText.ToUpper());
-            CheckData();
-
-            SetTBs();
-            C1.Text = MakePrintable(text.cipherText);
-            C2.Text = MakePrintable(text.cipherText);
-            C3.Text = MakePrintable(text.cipherText);
-            C4.Text = MakePrintable(text.cipherText);
-            P1.Text = MakePrintable(text.Plaintext);
-            P2.Text = MakePrintable(text.Plaintext);
-            P3.Text = MakePrintable(text.Plaintext);
-            P4.Text = MakePrintable(text.Plaintext);
-
-            AffCipherText1.Items.Clear();
-            AffCipherText2.Items.Clear();
-            for (int i = 0; i < cipherTextData.uGramArray.Length; i++)
+            if (text.cipherText == "")
             {
-                AffCipherText1.Items.Add(cipherTextData.uGramArray[cipherTextData.uGramArray.Length - i - 1]);
-                AffCipherText2.Items.Add(cipherTextData.uGramArray[cipherTextData.uGramArray.Length - i - 1]);
+                MessageBox.Show("File Invalid", "File has no aphla character", MessageBoxButtons.OK);
+                text = null;
             }
-
-            AffPlainText1.Items.Clear();
-            AffPlainText2.Items.Clear();
-            for (int i = 0; i < engData.charFreq.Length; i++)
+            else
             {
-                AffPlainText1.Items.Add(engData.charFreq[engData.charFreq.Length - i - 1]);
-                AffPlainText2.Items.Add(engData.charFreq[engData.charFreq.Length - i - 1]);
-            }
+                shift_Index = 0;
+                runs = 0;
+                cipherTextData = new NGramData(text.cipherText);
+                CheckData();
 
-            HillCipherText1.Items.Clear();
-            HillCipherText2.Items.Clear();
-            for (int i = 0; i < cipherTextData.bGramArrayNonRepeat.Length; i++)
-            {
-                HillCipherText1.Items.Add(cipherTextData.bGramArrayNonRepeat[cipherTextData.bGramArrayNonRepeat.Length - i - 1]);
-                HillCipherText2.Items.Add(cipherTextData.bGramArrayNonRepeat[cipherTextData.bGramArrayNonRepeat.Length - i - 1]);
-            }
+                SetTBs();
+                C1.Text = MakePrintable(text.cipherText);
+                C2.Text = MakePrintable(text.cipherText);
+                C3.Text = MakePrintable(text.cipherText);
+                C4.Text = MakePrintable(text.cipherText);
+                P1.Text = MakePrintable(text.Plaintext);
+                P2.Text = MakePrintable(text.Plaintext);
+                P3.Text = MakePrintable(text.Plaintext);
+                P4.Text = MakePrintable(text.Plaintext);
 
-            HillPlainText1.Items.Clear();
-            HillPlainText2.Items.Clear();
-            for (int i = 0; i < engData.bigramMostCommonData.Length; i++)
-            {
-                HillPlainText1.Items.Add(engData.bigramMostCommonData[engData.bigramMostCommonData.Length - i - 1]);
-                HillPlainText2.Items.Add(engData.bigramMostCommonData[engData.bigramMostCommonData.Length - i - 1]);
-            }
+                AffCipherText1.Items.Clear();
+                AffCipherText2.Items.Clear();
+                for (int i = 0; i < cipherTextData.uGramArray.Length; i++)
+                {
+                    AffCipherText1.Items.Add(cipherTextData.uGramArray[cipherTextData.uGramArray.Length - i - 1]);
+                    AffCipherText2.Items.Add(cipherTextData.uGramArray[cipherTextData.uGramArray.Length - i - 1]);
+                }
 
-            K2.Text = text.getAssign();
-            K1.Text = "Shift:  ...";
+                AffPlainText1.Items.Clear();
+                AffPlainText2.Items.Clear();
+                for (int i = 0; i < engData.charFreq.Length; i++)
+                {
+                    AffPlainText1.Items.Add(engData.charFreq[engData.charFreq.Length - i - 1]);
+                    AffPlainText2.Items.Add(engData.charFreq[engData.charFreq.Length - i - 1]);
+                }
+
+                HillCipherText1.Items.Clear();
+                HillCipherText2.Items.Clear();
+                for (int i = 0; i < cipherTextData.bGramArrayNonRepeat.Length; i++)
+                {
+                    HillCipherText1.Items.Add(cipherTextData.bGramArrayNonRepeat[cipherTextData.bGramArrayNonRepeat.Length - i - 1]);
+                    HillCipherText2.Items.Add(cipherTextData.bGramArrayNonRepeat[cipherTextData.bGramArrayNonRepeat.Length - i - 1]);
+                }
+
+                HillPlainText1.Items.Clear();
+                HillPlainText2.Items.Clear();
+                for (int i = 0; i < engData.bigramMostCommonData.Length; i++)
+                {
+                    HillPlainText1.Items.Add(engData.bigramMostCommonData[engData.bigramMostCommonData.Length - i - 1]);
+                    HillPlainText2.Items.Add(engData.bigramMostCommonData[engData.bigramMostCommonData.Length - i - 1]);
+                }
+
+                K2.Text = text.getAssign();
+                K1.Text = "Shift:  ...";
+            }
         }
 
         /// <summary>
@@ -684,7 +691,7 @@ namespace SubstitutionBreaker
             if (AffCipherText1.Text != "" && AffCipherText1.Text != "" && AffPlainText1.Text != "" && AffPlainText2.Text != "")
             MakeAffGuess();
             else
-                MessageBox.Show("No Guess", "Make a Guess", MessageBoxButtons.OK);
+                MessageBox.Show("No Guess Made", "Make a Guess", MessageBoxButtons.OK);
         }
 
 
