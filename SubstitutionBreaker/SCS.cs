@@ -202,7 +202,10 @@ namespace SubstitutionBreaker
         }
 
         /// <summary>
-        /// Converts the plaintext or ciphertext into blocks of 5 characters and 8 blocks per line for display so the user can better see changes as they use the substitution solver.</summary>
+        /// Converts the plaintext or ciphertext into blocks of 5 characters
+        /// and 8 blocks per line for display so the user can better see 
+        /// changes as they use the substitution solver.
+        /// </summary>
         /// <param name="Text">
         /// The text to be formatted.
         /// </param>
@@ -338,7 +341,21 @@ namespace SubstitutionBreaker
         //End Shift
 
         //Sub
-        //Get the English Language weights for the ciphertext
+
+        /// <summary>
+        ///   <para>
+        ///   Handles the Click event of the SubGuess control.
+        ///   </para>
+        ///   <para>
+        ///   Makes a guess when button is pressed.
+        ///   </para>
+        /// </summary>
+        /// <param name="sender">
+        /// The source of the event.
+        /// </param>
+        /// <param name="e">
+        /// The <see cref="EventArgs"/> instance containing the event data.
+        /// </param>
         private void SubGuess_Click(object sender, EventArgs e)
         {
             if (text != null)
@@ -352,6 +369,13 @@ namespace SubstitutionBreaker
             }
         }
 
+        /// <summary>  
+        /// Generates geuss weights for what it thinks is the most probable 
+        /// plaintext character assigned to a ciphertext character.
+        /// </summary>
+        /// <param name="runs">
+        /// The number of times this function has run.
+        /// </param>
         private void MakeGuess(int runs)
         {
             double[,] guessWeight = new double[26, 26];
@@ -366,6 +390,13 @@ namespace SubstitutionBreaker
             printArray(guessWeight);
         }
 
+        /// <summary>
+        /// Prints the top three guess weight, plaintext character pairs for
+        /// each cipher text character yet to be assigned.
+        /// </summary>
+        /// <param name="guessWeight">
+        /// The guess weight array.
+        /// </param>
         private void printArray(double[,] guessWeight)
         {
             StringBuilder res = new StringBuilder(26 * 61);
@@ -396,6 +427,19 @@ namespace SubstitutionBreaker
             K2.Text += res.ToString();
         }
 
+        /// <summary>
+        /// Gets the top values in row by preforming an out of place insertion
+        /// sort on the row.
+        /// </summary>
+        /// <param name="guessWeight">
+        /// The guess weight array.
+        /// </param>
+        /// <param name="x">
+        /// The row int the array to sort.
+        /// </param>
+        /// <returns>
+        /// A sorted list of assignments and their wieghts
+        /// </returns>
         private List<Tuple<int, int, double>> GetTopValuesInRow(double[,] guessWeight, int x)
         {
             List<Tuple<int, int, double>> topPick = new List<Tuple<int, int, double>>();
@@ -442,6 +486,16 @@ namespace SubstitutionBreaker
             return topPick;
         }
 
+        /// <summary>  
+        /// Checks whether a ciphertext character has already been assigned 
+        /// to a plaintext guess.
+        /// </summary>
+        /// <param name="j">
+        /// The int representation of the character (A-Z→0-25).
+        /// </param>
+        /// <returns>
+        /// True if the character has not already been assigned false otherwise.
+        /// </returns>
         private bool NotInArray(int j)
         {
             foreach (var item in text.assign)
@@ -454,6 +508,12 @@ namespace SubstitutionBreaker
             return true;
         }
 
+        /// <summary>  
+        /// Modifies the guess weight array based on unigram analisis.
+        /// </summary>
+        /// <param name="guessWeight">
+        /// The guess weight array.
+        /// </param>
         private void UnigramAnalisis(double[,] guessWeight)
         {
             int x, y, curr, diff = engData.charFreq.Length - cipherTextData.uGramArray.Length;
@@ -478,11 +538,17 @@ namespace SubstitutionBreaker
             }
         }
 
+        /// <summary>  
+        /// Modifies the guess weight array based on bigram analisis.
+        /// </summary>
+        /// <param name="guessWeight">
+        /// The guess weight array.
+        /// </param>
         private void BigramAnalisis(double[,] guessWeight)
         {
             int letter1, letter2;
             double countMod = 0, bigramMod;
-            ;
+            
             string bCipher;
             bool inArray1, inArray2;
 
@@ -500,7 +566,9 @@ namespace SubstitutionBreaker
                 inArray2 = letter2 == '-';
 
                 if (inArray1 && inArray2 || !inArray1 && !inArray2)
-                { }
+                {
+                    //Do nothing
+                }
                 else if (inArray1)
                 {
                     for (int j = 0; j < 26; j++)
@@ -530,6 +598,12 @@ namespace SubstitutionBreaker
             }
         }
 
+        /// <summary>  
+        /// Modifies the guess weight array based on trigram analisis.
+        /// </summary>
+        /// <param name="guessWeight">
+        /// The guess weight array.
+        /// </param>
         private void TrigramAnalisis(double[,] guessWeight)
         {
             int x, y;
@@ -553,6 +627,7 @@ namespace SubstitutionBreaker
                             x = tCipher[k] - 'A';
                             y = tEng[k] - 'A';
 
+                            // change to guessWeight[x, y] += mod * (5.0 / (Math.Abs(i-j)+1));
                             guessWeight[x, y] += mod * (50.0 / (101 - j));
                         }
                     }
@@ -560,6 +635,18 @@ namespace SubstitutionBreaker
             }
         }
 
+        /// <summary>
+        /// Gets the trigram weights modifier based on how many character of the trigram has already shown up.
+        /// </summary>
+        /// <param name="pos1">
+        /// The index of the ciphertext trigram in cipherTextData.tGramArray.
+        /// </param>
+        /// <param name="pos2">
+        /// The index of the english trigram in engData.trigramData.
+        /// </param>
+        /// <returns>
+        /// The weight modifier
+        /// </returns>
         private double GetTMod(int pos1, int pos2)
         {
             int count = 0;
@@ -585,6 +672,22 @@ namespace SubstitutionBreaker
         }
 
         //Sub Assignment
+
+        /// <summary>
+        ///   <para>
+        ///   Handles the Click event of the CharMap control.
+        ///   </para>
+        ///   <para>
+        ///   Assigns ciphertext characters to their associated plaintext guess. 
+        ///   Then print the decrypted plaintext.
+        ///   </para>
+        /// </summary>
+        /// <param name="sender">
+        /// The source of the event.
+        /// </param>
+        /// <param name="e">
+        /// The <see cref="EventArgs"/> instance containing the event data.
+        /// </param>
         private void CharMap_Click(object sender, EventArgs e)
         {
             if (text != null)
